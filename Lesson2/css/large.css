@@ -1,0 +1,9 @@
+@media only screen and (min-width: 60em) {
+    main {display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;}
+        .whitespace {grid-column-start: 1;}
+        .alignment {grid-column-start: 2;}
+        .proximity {grid-column-start: 3;}
+
+}
