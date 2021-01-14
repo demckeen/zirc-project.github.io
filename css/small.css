@@ -1,7 +1,7 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@600&display=swap');
 
-.content {max-width: 1200px;
+.content {max-width: 1000px;
           margin: auto;
           background-color: white;}
 
