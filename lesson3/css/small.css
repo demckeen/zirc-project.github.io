@@ -6,8 +6,14 @@
     margin: 0 auto;
 }
 
-header, nav {
+header {
     background-color: #525174;
+    color: white;
+    display: block;
+}
+
+nav {
+    background-color: #348aa7;
     color: white;
     display: block;
 }
