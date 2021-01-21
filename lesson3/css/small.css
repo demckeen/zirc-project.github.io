@@ -6,6 +6,8 @@
     margin: 0 auto;
 }
 
+html {background-color: #efd9ce;}
+
 header {
     background-color: #525174;
     color: white;
@@ -63,6 +65,7 @@ body {
 
 main {
     flex: 1 0 auto;
+    background-color: white;
 }
 
 footer {
@@ -83,3 +86,6 @@ footer a {
     font-size: 12px;
     color: #efd9ce;
 }
+
+h2, h3, p {padding-left: 25px;
+    padding-right: 25px;}
