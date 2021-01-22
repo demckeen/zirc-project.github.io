@@ -63,6 +63,7 @@ nav ul li a {
 	padding: .75rem;
 	text-decoration: none;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 nav a:hover {
 	background-color: white;
@@ -136,6 +137,7 @@ main img {
     padding: 25px;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 #aqua {
@@ -144,4 +146,5 @@ main img {
     padding: 25px;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: bold;
 }
