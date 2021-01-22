@@ -89,3 +89,8 @@ footer a {
 
 h2, h3, p {padding-left: 25px;
     padding-right: 25px;}
+
+main img {
+    max-width: 400px;
+    margin-left: 25px;
+}
