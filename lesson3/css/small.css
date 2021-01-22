@@ -10,13 +10,13 @@
 html {background-color: #efd9ce;}
 
 header {
-    background-color: #525174;
+    background-color: #474574;
     color: white;
     display: block;
 }
 
 nav {
-    background-color: #348aa7;
+    background-color: #017EA7;
     color: white;
     display: block;
 }
@@ -63,18 +63,17 @@ nav ul li a {
 	padding: .75rem;
 	text-decoration: none;
     font-size: 1.2rem;
-    font-weight: bold;
 }
 nav a:hover {
 	background-color: white;
-  color: #525174;}
+  color: ##474574;}
 
 body {
   background-color: white;
   font-family: "Open Sans", Helvetica, sans-serif;
   padding: 0;
   font-size: 18px;
-  color: #525174;
+  color: #474574;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -86,7 +85,7 @@ main {
 }
 
 footer {
-    background-color: #525174;
+    background-color: #474574;
     color: white;
     height: auto;
     text-align: center;
@@ -119,32 +118,30 @@ main img {
 }
 
 #purple {
-    background-color: #525174;
+    background-color: #474574;
     color: white;
     padding: 25px;
 }
 
 #pink {
     background-color: #efd9ce;
-    color: #525174;
+    color: #474574;
     padding: 25px;
     margin-bottom: 0;
 }
 
 #blue {
-    background-color: #348AA7;
+    background-color: #017EA7;
     color: white;
     padding: 25px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: bold;
 }
 
 #aqua {
     background-color: #5DD39E;
-    color: white;
+    color: #474574;
     padding: 25px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: bold;
 }
