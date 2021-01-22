@@ -111,3 +111,37 @@ main img {
     max-width: 400px;
     margin-left: 25px;
 }
+
+#palette {
+    width: 90vw;
+    max-width: 800px; 
+}
+
+#purple {
+    background-color: #525174;
+    color: white;
+    padding: 25px;
+}
+
+#pink {
+    background-color: #efd9ce;
+    color: #525174;
+    padding: 25px;
+    margin-bottom: 0;
+}
+
+#blue {
+    background-color: #348AA7;
+    color: white;
+    padding: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#aqua {
+    background-color: #5DD39E;
+    color: white;
+    padding: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
