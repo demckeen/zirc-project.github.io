@@ -1,5 +1,6 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Oleo+Script+Swash+Caps&display=swap');
 
 .content {
     max-width: 1000px;
@@ -28,10 +29,25 @@ header img {
 }
 
 header h1 {
+    font-family: 'Comfortaa', cursive;
     text-align: center;
+    font-size: 3em;
     margin: 0;
     padding-bottom: 15px;
 
+}
+
+h2, h3 {
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.25em;
 }
 
 nav ul {
@@ -91,6 +107,7 @@ h2, h3, p {padding-left: 25px;
     padding-right: 25px;}
 
 main img {
+    width: 80vw;
     max-width: 400px;
     margin-left: 25px;
 }
