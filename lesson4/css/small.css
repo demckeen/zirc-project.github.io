@@ -1,0 +1,123 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Oleo+Script+Swash+Caps&display=swap');
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+html {background-color: #efd9ce;}
+
+header {
+    background-color: #474574;
+    color: white;
+    display: block;
+    padding-top: 25px;
+}
+
+nav {
+    background-color: #017EA7;
+    color: white;
+    display: block;
+}
+
+header img {
+    display: block;
+    width: 100px;
+    padding: 15px;
+    margin: 0 auto;
+    float: left;
+}
+
+header h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 3em;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.tagline {
+    font-style:italic;
+    margin-top: 0;
+    text-indent: 20px;
+    padding-bottom: 15px;
+}
+
+h2, h3 {
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+.navigation li:first-child {
+    display:block;}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: .75rem;
+	text-decoration: none;
+    font-size: 1.2rem;
+}
+nav a:hover {
+	background-color: white;
+  color: #474574;}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  padding: 0;
+  font-size: 18px;
+  color: #474574;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: white;
+}
+
+footer {
+    background-color: #474574;
+    color: white;
+    height: auto;
+    text-align: center;
+    padding: 25px;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+footer a {
+    color: white;
+}
+
+.updated {
+    font-size: 12px;
+    color: #efd9ce;
+}
+
+h2, h3, p {padding-left: 25px;
+    padding-right: 25px;}
+
+main img {
+    width: 80vw;
+    max-width: 400px;
+    margin-left: 25px;
+}
