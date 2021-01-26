@@ -1,13 +1,12 @@
 @media only screen and (min-width: 32.5em) {
 	/* Horizontal Menu Examples */
-nav ul {display: flex; }
-nav ul li {flex: 1 1 100%;}
-}
+.navigation {display: flex; }
 
 .navigation li {
 	display:block;
+	flex: 1 1 100%;
 }
 
 .navigation li:first-child {
 	display:none;
-}
+}}
