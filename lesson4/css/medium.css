@@ -35,14 +35,15 @@ nav {
 }
 
 #hero {
-	width: 95%;
-    padding-left: 25px;
+    padding-left: 2.4vw;
     min-height: 200px;
-    min-width: 760px;
+    min-width: 800px;
 }
 
 #summarycontainer {
     position: relative;
+    margin-right: 2.5vw;
+    overflow: hidden;
 }
 
 #summary {
@@ -52,6 +53,10 @@ nav {
     top: 1vw;
     margin: 20px;
     background: rgba(1, 126, 167, 0.9) }
+
+.articlediv {
+    padding-bottom: 2vw;
+}
 
 .articleimg {
     position: static;
