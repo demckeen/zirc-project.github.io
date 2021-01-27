@@ -1,0 +1,63 @@
+@media only screen and (min-width: 32.5em) {
+	/* Horizontal Menu Examples */
+.navigation {display: flex; }
+
+.navigation li {
+	display:block;
+	flex: 1 1 100%;
+}
+
+.navigation li:first-child {
+	display:none;
+}
+
+.navigation, main {padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+header {
+	display: block;
+}
+
+header img {padding-left: 12vw;}
+
+.tagline {text-indent: 25px;}
+
+nav {
+    background-color: #017EA7;
+    color: white;
+	display: block;
+	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+
+#hero {
+	width: 95%;
+    padding-left: 25px;
+    min-height: 200px;
+    min-width: 760px;
+}
+
+#summarycontainer {
+    position: relative;
+}
+
+#summary {
+    position: absolute;
+    width: 200px;
+    left: 3vw;
+    top: 1vw;
+    margin: 20px;
+    background: rgba(1, 126, 167, 0.9) }
+
+.articleimg {
+    position: static;
+    float: right;
+    padding: 2vw;
+}
+
+
+}

@@ -11,25 +11,44 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
   </head>
   <body class="content">
     <header>
         <img src="images/logo.png" alt="icon featuring cloud, sun, and lightning">
         <h1>Weather Moment</h1>
         <p class="tagline">We're having a weather moment!</p>
-    </header>
     <nav>
         <ul class="navigation">
-            <li><a class="ham" href="#">Menu</a></li>
+            <li><a class="ham" href="#"><img src="images\whitehamburgericon.png" alt="white 3 line menu icon"></a></li>
             <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="target-audience.html">Audience</a></li>
-            <li><a href="color-scheme.html">Colors</a></li>
-            <li><a href="typography.html">Typography</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
+    </header>
     </nav>    
     <main>
-        <h2>Site Purpose</h2>
-        <p>Welcome to the weathermoment.com site planning page.  This website will be
+        <h2>Preston Idaho</h2>
+        <div id="summarycontainer">
+        <img src="images/hero.jpg" id="hero" alt="mountains with blue sky above">
+        <div id="summary"><h4>Weather Summary</h4>
+        <p>Temperature: 58 * Wind: 10mph * Feels Like: 45</p></div>
+        </div>
+        <h3 id="h3forecast">Five Day Forecast</h3>
+        <div id="forecast">
+            <img src="images/placeholder.png" id="day1" alt="image placeholder">
+            <img src="images/placeholder.png" id="day2" alt="image placeholder">
+            <img src="images/placeholder.png" id="day3" alt="image placeholder">
+            <img src="images/placeholder.png" id="day4" alt="image placeholder">
+            <img src="images/placeholder.png" id="day5" alt="image placeholder">
+        </div>
+        <div class="articlediv">
+            <img src="images/placeholder.png" class="articleimg" alt="image placeholder">
+        <h4>Article Headline</h4>
+        <p class="article">Welcome to the weathermoment.com site planning page.  This website will be
             devoted to those who take a brief moment each day to check in on the weather 
             and their small town.  It will have basic weather information and relevant town 
             information for each of the towns.  There will be a page dedicated to each town 
@@ -38,11 +57,16 @@
             weather events.  This section will also include resources for advisable safety 
             measures for various relevant severe weather events in the area.
         </p>
+        </div>
     </main>
     <footer>
+        <div id="footermain">
+            
+        </div>
+        <div id="footerbar">
         <p>&copy;<span id="year"></span> | Dana McKeen | Alabama | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
         <p class="updated">Last Updated <span id="demo"></span></p>
-        <script src="js/preston.js"></script>
+        <script src="js/preston.js"></script></div>
     </footer>
 </body>
 </html>
