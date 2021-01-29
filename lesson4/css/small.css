@@ -228,22 +228,18 @@ span img {
 }
 
 #footermain {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
     padding-bottom: 25px;
 }
 
 #mapimg {
-    grid-column-start: 1;
-    grid-row-start: 1;
     padding: 15px;
-}
+    margin: 0 auto;}
 
 #contact {
-    grid-column-start: 2;
-    grid-row-start: 1;
     justify-self: center;
     text-align: left;
+    margin-left: 25%;
 }
 
 #contact h4 {
@@ -263,3 +259,5 @@ span img {
     padding: 15px;
     padding-right: 0;
 }
+
+#social, #address {display:none;}

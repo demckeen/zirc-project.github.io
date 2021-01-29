@@ -64,5 +64,27 @@ nav {
     padding: 2vw;
 }
 
+#social {display: block;}
+
+#address {display: inline-block;}
+
+#footermain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 25px;
+}
+
+#mapimg {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    padding: 15px;
+}
+
+#contact {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    justify-self: center;
+    text-align: left;
+}
 
 }
