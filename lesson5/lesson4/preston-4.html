@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dana McKeen">
+    <meta name="description" content="This is the Preston, ID home page for Weather Moment">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <title>Preston's Weather Moment</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+  </head>
+  <body class="content">
+    <header>
+        <img src="images/logo.png" alt="icon featuring cloud, sun, and lightning">
+        <h1>Weather Moment</h1>
+        <p class="tagline">We're having a weather moment!</p>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#"><img src="images/whitehamburgericon.png" alt="white 3 line menu icon"></a></li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div id="summarycontainer">
+        <img src="images/hero.jpg" id="hero" alt="mountains with blue sky above">
+        <div id="summary"><h4>Weather Summary</h4>
+        <p>Temperature: 58 * Wind: 10mph * Feels Like: 45</p></div>
+        </div>
+        <h3 id="h3forecast">Five Day Forecast</h3>
+        <div id="forecast">
+            <img src="images/placeholder.png" id="day1" alt="image placeholder">
+            <img src="images/placeholder.png" id="day2" alt="image placeholder">
+            <img src="images/placeholder.png" id="day3" alt="image placeholder">
+            <img src="images/placeholder.png" id="day4" alt="image placeholder">
+            <img src="images/placeholder.png" id="day5" alt="image placeholder">
+        </div>
+        <div class="articlediv">
+            <img src="images/placeholder.png" class="articleimg" alt="image placeholder">
+        <h4>Article Headline</h4>
+        <p class="article">Welcome to the weathermoment.com site planning page.  This website will be
+            devoted to those who take a brief moment each day to check in on the weather 
+            and their small town.  It will have basic weather information and relevant town 
+            information for each of the towns.  There will be a page dedicated to each town 
+            and their specific information such as events and city level community concerns, 
+            as well as a page only for looking at storm data and current concerns for severe 
+            weather events.  This section will also include resources for advisable safety 
+            measures for various relevant severe weather events in the area.
+        </p>
+        </div>
+    </main>
+    <footer>
+        <div id="footermain">
+        <div id="contact"><h4>Contact Information</h4>
+        <span id="address"><img id="mappin" src="images/whitepin.png" alt="white map pin">Address Info</span><br>
+        <span><img src="images/whitephone.png" alt="white phone icon">555-555-5555</span><br>
+        <span><img src="images/emailwhite.png" alt="white email icon">info@weathermoment.com</span><br>
+        <span id="social"><img src="images/facebook-3-512.png" alt="white facebook icon">
+        <img src="images/instagram-512.png" alt="white instagram icon">
+        <img src="images/twitter-512.png" alt="white twitter icon"></span> </div>
+        <div id="mapimg">
+        <img src="images/placeholder.png" alt="placeholder image"></div>
+
+        </div>
+        <div id="footerbar">
+        <p>&copy;<span id="year"></span> | Dana McKeen | Alabama | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p id="dayofweek">Last Updated <span id="demo"></span></p>
+        <script src="js/preston.js"></script></div>
+    </footer>
+</body>
+</html>
