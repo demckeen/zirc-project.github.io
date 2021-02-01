@@ -205,12 +205,14 @@ h2, h3, h4, h5, p {padding-left: 25px;
     margin-right: 2.5vw;
     margin-left: 2.5vw;
     padding: 2vw;
-    padding-bottom: 30vh;}
+    padding-bottom: 60vh;}
 
 .articleimg {position: absolute;
-    bottom: 3vh;
-    left: 8vh;
-    max-height: 25vh;}
+    bottom: 5vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    max-height: 50vh;}
 
 span img {
     max-width: 25px;

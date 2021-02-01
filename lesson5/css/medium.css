@@ -62,7 +62,7 @@ nav {
     position: static;
     float: right;
     padding: 2vw;
-}
+    max-width: 25vw;}
 
 #social {display: block;}
 
@@ -78,13 +78,16 @@ nav {
     grid-column-start: 1;
     grid-row-start: 1;
     padding: 15px;
+    justify-self: right;
+    margin-right: 20px;
 }
 
 #contact {
     grid-column-start: 2;
     grid-row-start: 1;
-    justify-self: center;
+    justify-self: left;
     text-align: left;
+    align-self: center;
 }
 
 }
