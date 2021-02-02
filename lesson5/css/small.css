@@ -205,6 +205,14 @@ h2, h3, h4, h5, p {padding-left: 25px;
 h3 {text-indent: 25px;
     margin: 5px;}
 
+.headline {line-height: 0em;}
+
+.byline {
+    font-style: italic;
+    font-size: .75em;
+    line-height: .2em;
+}
+
 .articlediv {position: relative;
     background-color: #efd9ce;
     color: #474574;
