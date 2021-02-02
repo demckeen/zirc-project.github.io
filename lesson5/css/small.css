@@ -106,6 +106,7 @@ nav ul {
     justify-self: right;
 }
 
+
 h2, h3 {
     font-family: 'Comfortaa', cursive;
     letter-spacing: -1px;
@@ -197,7 +198,8 @@ h2, h3, h4, h5, p {padding-left: 25px;
     align-self: center;
 }
 
-#h3forecast {text-indent: 25px;}
+h3 {text-indent: 25px;
+    margin: 5px;}
 
 .articlediv {position: relative;
     background-color: #efd9ce;
@@ -263,3 +265,7 @@ span img {
 }
 
 #social, #address {display:none;}
+
+.active, .active a {
+    background-color: #5dd39e;
+}
