@@ -120,22 +120,18 @@ nav ul {
 
 
 h2, h3 {
-    font-family: 'Comfortaa', cursive;
     letter-spacing: -1px;
+    font-size: 1.25em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
 }
 
-h4, h5 {
+h1, h2, h3, h4, h5 {
     font-family: 'Comfortaa', cursive;}
 
-h2 {
-    font-size: 1.75em;
-}
-
-h3 {
-    font-size: 1.25em;
-    margin-top: 5px;
-    margin-bottom: 0;
-}
+h2, h3, h4, h5, p {padding-left: 25px;
+    padding-right: 25px;}
 
 body {
   background-color: white;
@@ -174,9 +170,6 @@ footer a {
     color: white;
 }
 
-h2, h3, h4, h5, p {padding-left: 25px;
-    padding-right: 25px;}
-
 #hero {
     width: 100%;
 }
@@ -190,8 +183,6 @@ h2, h3, h4, h5, p {padding-left: 25px;
 #summary h4, #summary p {
     margin: 10px;
 }
-
-
 
 #forecast {display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -209,9 +200,6 @@ h2, h3, h4, h5, p {padding-left: 25px;
     justify-self: center;
     align-self: center;
 }
-
-h3 {text-indent: 25px;
-    margin: 5px;}
 
 .headline {line-height: 0em;}
 
