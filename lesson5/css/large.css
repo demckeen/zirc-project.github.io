@@ -19,6 +19,8 @@ header {
 	display: block;
 }
 
+h1 {text-align: left;}
+
 header img {padding-left: 12vw;}
 
 .tagline {text-indent: 2vw;
@@ -34,7 +36,8 @@ nav {
 	top: auto;
 	left: auto;
 	right: auto;
-	bottom: auto;
+    bottom: auto;
+    margin: 0;
 }
 
 #hero {

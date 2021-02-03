@@ -27,7 +27,7 @@ var month = now.getMonthName();
 var date = new Date().toLocaleDateString()
 document.getElementById("dayofweek").innerHTML = day + ", " + now.getDate() + " " + month + " " + now.getFullYear();
 
-var dow = 5; // new Date().getDay();
+var dow = new Date().getDay();
 
 if (dow == 5) {
     document.getElementById("banner").style.display = "block";
