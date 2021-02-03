@@ -8,6 +8,14 @@
 
 html {background-color: #efd9ce;}
 
+#banner {text-align: center;
+    background-color: #5dd39e;
+    color: #474574;
+    padding: 15px;
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: 'Comfortaa';}
+
 header {
     background-color: #474574;
     color: white;
