@@ -34,3 +34,16 @@ if (dow == 5) {
 }
     else {document.getElementById("banner").style.display = "none";};
  
+function initMap() {
+        // The location of Preston, ID
+    const preston = { lat: 42.0963133, lng: -111.8766173 };
+        // The map, centered at Preston, ID
+    const map = new google.maps.Map(document.getElementById("mapimg"), {
+          zoom: 9,
+          center: preston,
+        });
+        // The marker, positioned at Uluru
+    const marker = new google.maps.Marker({
+          position: preston,
+          map: map,
+        })};

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 33.5em) {
 	/* Horizontal Menu Examples */
 .navigation {display: flex; }
 
@@ -85,7 +85,10 @@ nav {
     grid-row-start: 1;
     padding: 15px;
     justify-self: right;
-    margin-right: 20px;
+    margin: 25px;
+    margin-right: 0;
+    width: 80%;
+    height: auto;
 }
 
 #contact {
