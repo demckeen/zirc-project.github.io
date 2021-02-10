@@ -39,13 +39,12 @@ nav {
     bottom: auto;
     margin: 0;
 }
-/*
+
 picture.heroimg img{
     display: block;
-    max-width: 90vw;
-    width: 100%;
-    margin: 0;
-}*/
+    width: 95%;
+    margin: 0 auto;
+}
 
 #summarycontainer {
     position: relative;
