@@ -1,0 +1,16 @@
+picture img{width: 300px;
+    height: 400px;
+    display:block;
+    margin: 0 auto;}
+
+h1 {text-align: center;}
+
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter .5s;
+  }
