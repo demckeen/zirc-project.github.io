@@ -261,6 +261,8 @@ span img {
     padding-bottom: 25px;
 }
 
+.title {font-size: 1.2em;}
+
 #mapimg {
     padding: 15px;
     margin: 20px;
