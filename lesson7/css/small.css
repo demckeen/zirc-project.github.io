@@ -292,3 +292,22 @@ span img {
 
 #social, #address {display:none;}
 
+/* Gallery Grid */
+
+.gallery {display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 1em;
+    margin: 1em;}
+
+figcaption {display:none;}
+
+img[data-src] {filter: blur(0.2em);
+    width: 100%;}
+      
+img {filter: blur(0em);
+    transition: filter .5s;
+    width: 100%;}
+
+figure {margin:0;}
