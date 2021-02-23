@@ -105,3 +105,18 @@ picture.heroimg img{
 figcaption {display:none;}
 
 }
+
+/*Form Styling */
+
+#stormsev {position: relative;}
+
+#severity {color:rgb(71, 69, 116);
+    display:inline;}
+
+#ratingvalue {
+    position: absolute;
+    bottom: 1.1rem;
+    display: inline-block; 
+    font-weight: bold; 
+    font-size: 1rem;
+    }

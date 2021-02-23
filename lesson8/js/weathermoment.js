@@ -1,4 +1,9 @@
 
+/*rating adjust*/
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
+
 document.getElementById("year").innerHTML = new Date().getFullYear();
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')

@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
 
-html {background-color: #efd9ce;}
+html {background-color: rgb(239, 217, 206);}
 
 #banner {text-align: center;
     background-color: #5dd39e;
@@ -313,3 +313,59 @@ img {filter: blur(0em);
     width: 100%;}
 
 figure {margin:0;}
+
+/* Form styling */
+form fieldset {
+    border: 2px solid #474574;
+    border-radius: 10px;
+    padding: .5rem 2% 1.5rem 2%;
+    max-width: 800px;
+    margin: 1rem auto;}
+
+form legend {
+    color: rgb(71, 69, 116);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {display: block;
+    padding-top: 1rem;
+    font-size: .9rem;}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: 2px solid rgb(1, 126, 167);
+    border-radius: 5px;
+    padding: .75rem;
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgb(1, 126, 167, .1);
+    margin-right: 5vw;
+    margin-top: .3rem;
+}
+
+form label.sbs {display: block;
+    padding: .75rem 0;
+    color: #474574;
+    font-size: 1rem;}
+
+input.button {
+    display:block;
+    border: none;
+    background-color:rgb(71, 69, 116);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 20rem;}
+
+#severity {color:rgb(71, 69, 116);
+    display:block;}
+
+#ratingvalue {
+   display: block;
+    }
+
+

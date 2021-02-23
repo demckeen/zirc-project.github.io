@@ -31,6 +31,66 @@
     </nav>
     </header>
     <main>
+        <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label class="top">Full Name*<input type="text" name="name" required pattern=".{5,}" title="Must contain at least 5 characters"></label>
+            <label class="top">Email<input type="email" name="email" placeholder="email@website.com"></label>
+            <label class="top">Phone*<input type="tel" name="phone" required></label>
+            <label class="top">Zip Code*<input type="number" name="zip" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Storm Details</legend>
+            <label class="top"  >Storm Date<input type="date" name="stormDate"></label>
+            <label class="top" for="stormtype">Storm Type</label>
+            <input type="text" id="stormtype" list="storms">
+            <datalist id="storms">
+                <option value="Flash Flood">Flash Flood</option>
+                <option value="Hail">Hail</option>
+                <option value="Hurricane">Hurricane</option>
+                <option value="Thunderstorm">Thunderstorm</option>
+                <option value="Tornado">Tornado</option>
+            </datalist>
+            <label class="top" id="stormsev">Storm Severity <br>
+                <input type="range" class="slider" id="severity" name="severity" min="1" max="10" step="1" 
+                list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+				<span id="ratingvalue">5</span>
+			</label>
+
+			<datalist id="tickmarks">
+				<option value="0">
+				<option value="1">
+				<option value="2">
+				<option value="3">
+				<option value="4">
+				<option value="5">
+				<option value="6">
+				<option value="7">
+				<option value="8">
+				<option value="9">
+				<option value="10">
+			</datalist>
+
+
+            <label class="top">Storm Region <select name="region">
+                <option value="">Select Region...</option>
+                <option value="preston">Preston</option>
+                <option value="sodaSprings">Soda Springs</option>
+                <option value="fishHaven">Fish Haven</option>
+            </select></label>
+
+            <div>User in Danger</div>
+            <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+            <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+            <label class="sbs"><input type="radio" name="danger" value="Maybe"> Maybe</label>
+
+            <label class="top">Additional Comments:
+            <input type="textarea" name="comments"></label>
+
+        </fieldset>
+        <input class="button" type="submit" value="Report Storm">
+
+        </form>
     </main>
     <footer>
         <div id="footermain">
@@ -50,7 +110,7 @@
         <div id="footerbar">
         <p>&copy;<span id="year"></span> | Dana McKeen | Alabama | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
         <p id="dayofweek">Last Updated <span id="demo"></span></p>
-        <script src="js/preston.js"></script></div>
+        <script src="js/weathermoment.js"></script></div>
     </footer>
     </body>
     </html>
