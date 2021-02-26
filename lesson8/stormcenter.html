@@ -34,7 +34,7 @@
         <form method="get" action="thanks.html">
         <fieldset>
             <legend>Personal Details</legend>
-            <label class="top">Full Name*<input type="text" name="name" required pattern=".{5,}" title="Must contain at least 5 characters"></label>
+            <label class="top">Full Name*<input type="text" name="name" required pattern="[A-Za-z\s]{5,}" title="Must contain at least 5 characters, no numbers"></label>
             <label class="top">Email<input type="email" name="email" placeholder="email@website.com"></label>
             <label class="top">Phone*<input type="tel" name="phone" required></label>
             <label class="top">Zip Code*<input type="number" name="zip" required></label>
