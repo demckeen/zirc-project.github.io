@@ -332,7 +332,7 @@ form label.top, form div {display: block;
     padding-top: 1rem;
     font-size: .9rem;}
 
-form label.top input, form label.top select {
+form label.top input, form label.top select, input[type=text], textarea {
     display: block;
     font-size: 1rem;
     border: 2px solid rgb(1, 126, 167);
@@ -365,7 +365,36 @@ input.button {
     display:block;}
 
 #ratingvalue {
-   display: block;
+   position: relative !important;
+   margin-top: 15px;
     }
+
+ .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 44px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    border-radius: 5px;
+    padding: 0 !important;
+      }
+
+.slider::-webkit-slider-thumb {
+        -webkit-appearance: none; /* Override default look */
+        appearance: none;
+        width: 44px; /* Set a specific slider handle width */
+        height: 44px; /* Slider handle height */
+        border-radius: 3px;
+        background: #474574; /* Green background */
+        cursor: pointer; /* Cursor on hover */
+      }
+      
+.slider::-moz-range-thumb {
+        width: 44px; /* Set a specific slider handle width */
+        height: 44px; /* Slider handle height */
+        background: #474574; /* Green background */
+        border-radius: 3px;
+        cursor: pointer; /* Cursor on hover */
+      }
 
 
