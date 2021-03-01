@@ -1,0 +1,19 @@
+@media only screen and (min-width: 50em) {
+/* Gallery Css */
+.gallery {grid-template-columns: repeat(3, 1fr)}
+
+figcaption {
+    display: block;
+    font-size: .8em;
+    padding-left: .8em;
+    padding-top: .1em;
+    padding-bottom: .4em;}
+
+figure {
+    display:block;
+    box-shadow: 3px 3px 5px rgb(189, 182, 182);
+}
+
+.box:hover {box-shadow: 5px 5px 10px #333;}
+
+}
