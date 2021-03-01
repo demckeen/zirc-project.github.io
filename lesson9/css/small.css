@@ -399,3 +399,8 @@ input.button {
 
 .thanks {margin: 10rem auto;
 }
+
+.cards p, .cards p1, .cards p2 {display: block;}
+
+.cards img {max-width: 400px;
+    display: block;}
