@@ -400,7 +400,32 @@ input.button {
 .thanks {margin: 10rem auto;
 }
 
-.cards p, .cards p1, .cards p2 {display: block;}
+div.cards {display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 2rem 0;}
+
+.cards p, .cards p1, .cards p2 {display: block;
+    padding: .5rem;
+    margin: 0;
+    font-size: .9rem;
+}
+
+.cards h2 {font-size: 2rem;
+    padding-top: 1rem;
+    padding-left: .5rem;
+    margin: 0;}
+
+.cards h3 {font-size: 1.2rem;
+    font-style: italic;
+    padding: .5rem;
+    margin: 0;}
+
+.cards section { background-color: #017EA7;
+    color: white;
+    margin: 0 2rem;
+    max-width: 400px;
+    }
 
 .cards img {max-width: 400px;
     display: block;}

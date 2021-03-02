@@ -120,3 +120,7 @@ figcaption {display:none;}
     font-weight: bold; 
     font-size: 1rem;
     }
+
+/* Home grid */
+
+div.cards {grid-template-columns: repeat(2, 1fr);}
