@@ -402,8 +402,9 @@ input.button {
 
 div.cards {display: grid;
     grid-template-columns: 1fr;
+    max-width: 400px;
     gap: 1rem;
-    margin: 2rem 0;}
+    margin: 2rem auto;}
 
 .cards p, .cards p1, .cards p2 {display: block;
     padding: .5rem;
@@ -421,11 +422,15 @@ div.cards {display: grid;
     padding: .5rem;
     margin: 0;}
 
-.cards section { background-color: #017EA7;
+.cards section { 
+    display: block;
+    background-color: #017EA7;
     color: white;
-    margin: 0 2rem;
+    margin: 0 auto;
     max-width: 400px;
+    padding: 0;
     }
 
-.cards img {max-width: 400px;
+.cards img {
+    object-fit: contain;
     display: block;}

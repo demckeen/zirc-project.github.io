@@ -123,4 +123,25 @@ figcaption {display:none;}
 
 /* Home grid */
 
-div.cards {grid-template-columns: repeat(2, 1fr);}
+div.cards {
+	max-width: 600px;
+    margin: .5rem auto;
+}
+
+.cards section {
+  display: grid;
+	grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+}
+
+.cards section:nth-child(even) img {
+	grid-column: 1;
+}
+
+.cards section:nth-child(even) .info {
+	grid-column: 2;
+    grid-row: 1;
+}
+
+.cards img {width: 100%; height: auto; margin: auto 0;}
+.cards .imgbox {align-self:center;}

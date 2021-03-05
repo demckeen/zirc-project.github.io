@@ -91,27 +91,33 @@ fetch(requestURL)
       if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven") {
 
         let card = document.createElement('section');
+        let info = document.createElement('div');
+        let imgbox = document.createElement('div');
         let h2 = document.createElement('h2');
         let h3 = document.createElement('h3');
         let p = document.createElement('p');
-        let p1 = document.createElement('p1');
-        let p2 = document.createElement('p2');
+        let p1 = document.createElement('p');
+        let p2 = document.createElement('p');
         let img = document.createElement('img');
 
         h2.textContent = towns[i].name; 
         h3.textContent = towns[i].motto;
         p.textContent = 'Year Founded: ' + towns[i].yearFounded;
         p1.textContent = 'Population: ' + towns[i].currentPopulation;
-        p2.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-        img.setAttribute('src', towns[i].photo);
+        p2.textContent = 'Annual Rain Fall: ' + parseInt(towns[i].averageRainfall) + '"';
+        img.setAttribute('src', 'images/' + towns[i].photo);
         img.setAttribute('alt', ('Image of the town of ' + towns[i].name));
+        info.setAttribute('class', 'info');
+        imgbox.setAttribute('class','imgbox');
         
-        card.appendChild(h2);
-        card.appendChild(h3);
-        card.appendChild(p);
-        card.appendChild(p1);
-        card.appendChild(p2);
-        card.appendChild(img);
+        card.appendChild(info);
+        card.appendChild(imgbox);
+        info.appendChild(h2);
+        info.appendChild(h3);
+        info.appendChild(p);
+        info.appendChild(p1);
+        info.appendChild(p2);
+        imgbox.appendChild(img);
         
         document.querySelector('div.cards').appendChild(card);}
   }});
