@@ -400,6 +400,8 @@ input.button {
 .thanks {margin: 10rem auto;
 }
 
+/* home grid */
+
 div.cards {display: grid;
     grid-template-columns: 1fr;
     max-width: 400px;

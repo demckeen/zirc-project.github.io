@@ -16,4 +16,21 @@ figure {
 
 .box:hover {box-shadow: 5px 5px 10px #333;}
 
+/*home grid*/
+div.cards {grid-template-columns: repeat(3, 1fr);
+    margin: 2rem auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 1000px;
+    ;}
+
+.cards section {display: block;}
+
+.heroimg {max-width: 1000px;
+    margin: 0 auto;}
+.articlediv {max-width: 1000px;
+    margin: 0 auto;}
+
+
+/*end media query*/
 }
