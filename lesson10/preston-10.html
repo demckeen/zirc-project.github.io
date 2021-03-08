@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dana McKeen">
+    <meta name="description" content="This is the Preston, ID home page for Weather Moment">
+    <title>Preston's Weather Moment</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+  </head>
+  <body class="content">
+    <p id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    <header>
+        <img src="images/logo.png" alt="icon featuring cloud, sun, and lightning">
+        <h1>Weather Moment</h1>
+        <p class="tagline">We're having a weather moment!</p>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#"><img id="hamicon" src="images/whitehamburgericon.png" alt="white 3 line menu icon"></a></li>
+            <li><a href="../lesson9/index.html">Home</a></li>
+            <li class="active"><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div id="summarycontainer">
+            <picture class="heroimg">
+                <source media="(max-width: 535px)" srcset="images/hero_535.jpg">
+                <source media="(max-width: 800px)" srcset="images/hero_800.jpg">
+                <img src="images/hero_1200.jpg" alt="sunny day green grass">
+            </picture>
+        <div id="summary"><h4>Weather Summary</h4>
+        <p>Temperature: <span id="degrees"></span>&deg;F <br> Wind: <span id="wind"></span> mph <br> Feels Like: <span id="windchill"></span></p>
+        <script src="js/windchill.js"></script></div>
+        </div>
+        <h3 id="h3forecast">Five Day Forecast</h3>
+        <div id="forecast">
+            <img src="images/placeholder.png" id="day1" alt="image placeholder">
+            <img src="images/placeholder.png" id="day2" alt="image placeholder">
+            <img src="images/placeholder.png" id="day3" alt="image placeholder">
+            <img src="images/placeholder.png" id="day4" alt="image placeholder">
+            <img src="images/placeholder.png" id="day5" alt="image placeholder">
+        </div>
+        <div class="articlediv">
+            <img src="images/snowwalk.jpg" class="articleimg" alt="man walking snowy landscape">
+        <h4 class="headline">Article Headline</h4>
+        <p class="byline">By Dana McKeen</p>
+        <p class="article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet ipsum dui. Quisque a aliquet massa. Sed condimentum est in massa gravida pulvinar. Sed iaculis nisi sit amet enim lacinia tempus. Ut sit amet euismod dui. Nullam dolor massa, dictum eget euismod non, dapibus sit amet mi. Maecenas rutrum, risus sit amet ultrices vestibulum, odio dui vulputate justo, nec dignissim dui erat sit amet nibh. Morbi urna purus, varius sit amet velit nec, bibendum facilisis erat. Vivamus luctus, massa a hendrerit pharetra, dolor metus scelerisque tellus, sed interdum est libero ut quam.</p>
+
+        <p class="article">Duis quam nisl, porta at dignissim non, rutrum in tellus. Duis suscipit, erat eget venenatis accumsan, odio dolor tempus sapien, at ultrices nisi nulla feugiat libero. Cras interdum ipsum hendrerit nunc convallis tristique. Aenean in condimentum arcu. Donec vel metus bibendum, mattis nulla nec, elementum tortor. Aliquam erat volutpat. Nulla aliquam consectetur efficitur. Sed ac felis arcu. Cras blandit laoreet purus sed posuere. Quisque tempor pharetra tortor, ac rhoncus risus ultrices ultricies. Pellentesque pulvinar, mi eget feugiat aliquet, orci augue euismod lectus, at vestibulum turpis elit gravida magna. Sed et euismod augue. Aliquam a imperdiet lacus. Proin sodales porttitor turpis sed vulputate.</p>
+            
+        <p class="article">Sed vel tellus risus. Praesent vitae eleifend turpis. Etiam posuere, mauris sed finibus feugiat, elit ante sodales neque, non aliquam nulla odio at massa. Mauris id efficitur nunc. Nam ornare semper condimentum. Proin egestas turpis sed gravida auctor. Integer dolor nulla, tincidunt dictum urna quis, aliquet porta lacus. Duis lacus dui, fringilla ac dignissim vitae, scelerisque in mi. Vivamus in risus eget arcu blandit interdum. Ut vitae dolor gravida tellus maximus hendrerit nec sit amet nisl. Maecenas vel fermentum risus. Curabitur eget ex quis metus blandit finibus quis sed neque. Duis eleifend, arcu at facilisis bibendum, tortor nisi congue sapien, at dignissim lorem sapien vel felis. Donec sed elit tristique felis congue pharetra sit amet vel tortor. Proin venenatis arcu ac mattis bibendum.
+        </p>
+        </div>
+    </main>
+    <footer>
+        <div id="footermain">
+        <div id="contact"><h4>Contact Information</h4>
+        <span id="address"><img id="mappin" src="images/whitepin.png" alt="white map pin">Address Info</span><br>
+        <span><img src="images/whitephone.png" alt="white phone icon">555-555-5555</span><br>
+        <span><img src="images/emailwhite.png" alt="white email icon">info@weathermoment.com</span><br>
+        <span id="social"><img src="images/facebook-3-512.png" alt="white facebook icon">
+        <img src="images/instagram-512.png" alt="white instagram icon">
+        <img src="images/twitter-512.png" alt="white twitter icon"></span> </div>
+        <div id="mapimg">
+            <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlEaAKvA3CIUFi9MbB7U2EMwWqjUIhzpE&callback=initMap&libraries=&v=weekly"
+            async
+          ></script>
+        </div></div>
+        <div id="footerbar">
+        <p>&copy;<span id="year"></span> | Dana McKeen | Alabama | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p id="dayofweek">Last Updated <span id="demo"></span></p>
+        <script src="js/preston.js"></script></div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script> WebFont.load({
+        google: {
+          families: [
+             'Comfortaa'
+          ]
+        }
+      });</script>
+</body>
+</html>
