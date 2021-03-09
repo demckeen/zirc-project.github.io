@@ -1,4 +1,22 @@
 @media only screen and (min-width: 50em) {
+/* Preston Landing Page */
+.summarycontainer {
+    position: relative;
+}
+
+.summary {
+    position: absolute;
+    width: 240px;
+    left: 10rem !important;}
+
+.townheading {
+    margin-left: 5rem;
+}
+
+.forecast {margin-left: 8rem;
+    margin-right: 8rem;}
+
+
 /* Gallery Css */
 .gallery {grid-template-columns: repeat(3, 1fr)}
 

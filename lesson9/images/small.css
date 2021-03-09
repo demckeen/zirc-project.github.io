@@ -1,0 +1,438 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Oleo+Script+Swash+Caps&display=swap');
+
+.content {
+    margin: 0 auto;
+}
+
+html {background-color: rgb(239, 217, 206);}
+
+#banner {text-align: center;
+    background-color: #5dd39e;
+    color: #474574;
+    padding: 15px;
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: 'Comfortaa';}
+
+header {
+    background-color: #474574;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    padding-top: 25px;
+    width: 100%;
+    position: relative;}
+
+header img {
+    display: inline;
+    grid-column-start: 1;
+    grid-row: 1/2;
+    justify-self: right;
+    align-self: center;
+    width: 100px;
+    margin: 0 auto;
+    float: left;
+}
+
+header h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: calc(20px + 3vw);
+    margin: 0;
+    padding-top: 15px;
+    grid-column-start: 2;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.tagline {
+    font-style:italic;
+    font-size: calc(12px + .25vw);
+    margin-top: 0;
+    text-indent: .1em;
+    padding-bottom: 15px;
+    grid-column: 1/4;
+    justify-self: center;
+    grid-row: 2/3;
+}
+
+#hamicon {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: rgb(0,0,0,0);
+    display: block;
+    grid-column-start: 3;
+    grid-row: 1/3;
+    justify-self: right;
+    margin-left: 20px;
+    position: absolute;
+    top: 5vh;
+    right: 20%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.navigation li:first-child {
+    background-color:  #474574;  
+    display: block;
+    margin: 0;
+    padding: 0;}
+
+.navigation li:first-child img, .navigation li:first-child a {max-width: 50px;
+    padding: 0;
+    margin: 0;
+    justify-self: right;
+    display: block;}
+
+.navigation li {
+    display: none;
+    background-color: #017EA7;
+}
+
+.navigation a {
+	display: block;
+	text-align: center;
+	padding: .75rem;
+	text-decoration: none;
+    font-size: calc(10px + .4rem);
+    color: white;
+}
+
+.active, .active a {
+    background-color: #efd9ce;
+    color: #474574 !important;
+}
+
+.navigation a:hover {
+	background-color: white;
+  color: #474574;}
+
+.responsive li {
+    padding: 0;
+    margin: 0;
+    display: block;}
+
+.responsive li:first-child {
+    justify-self: right;
+}
+
+
+h2, h3 {
+    letter-spacing: -1px;
+    font-size: 1.25em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+h1 {text-align: center;}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Comfortaa', cursive;}
+
+h2, h3, h4, h5, p {padding-left: 25px;
+    padding-right: 25px;}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  padding: 0;
+  font-size: 1.1rem;
+  color: #474574;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: white;
+}
+
+footer {
+    background-color: #474574;
+    color: white;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    font-size: .9rem;
+    flex-shrink: 0;
+}
+
+footer a {
+    color: white;
+}
+
+#updated {
+    font-size: .75rem;
+    color: white;
+}
+
+
+.heroimg img {
+    width: 100%;
+}
+
+
+picture.heroimg {
+    display: block;
+}
+
+#summary {
+    background-color:#017EA7;
+    color: white;
+    padding: 2vw;
+}
+
+#summary h4, #summary p {
+    margin: 10px;
+}
+
+#forecast {display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+    background-color: #efd9ce;
+    color: #474574;
+    padding: 15px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 5px;
+    margin-bottom: 15px;}
+
+#forecast img {
+    max-width: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.headline {line-height: 0em;}
+
+.byline {
+    font-style: italic;
+    font-size: .75em;
+    line-height: .2em;
+}
+
+.articlediv {position: relative;
+    background-color: #efd9ce;
+    color: #474574;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+    padding: 2vw;
+    padding-bottom: 60vh;}
+
+.articleimg {position: absolute;
+    bottom: 5vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    max-width: 80%;
+    max-height: 50vh;}
+
+span img {
+    max-width: 25px;
+    padding-right: 10px;
+    position: relative;
+    top: 8px;
+}
+
+#mappin {
+    position: relative;
+    left: 4px;
+    margin-right: 7px;
+    margin-bottom: 3px;
+    max-width: 18px;
+}
+
+#footermain {
+    display: block;
+    padding-bottom: 25px;
+}
+
+.title {font-size: 1.2em;}
+
+#mapimg {
+    padding: 15px;
+    margin: 20px;
+    max-width: 400px;
+    min-width: 40%;
+    max-height: 400px;
+    min-height: 200px;}
+
+#contact {
+    justify-self: center;
+    text-align: left;
+    margin: 20%;
+}
+
+#contact h4 {
+    margin-bottom: 5px;
+}
+
+#social img {
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+#footerbar {
+    background-color: #017EA7;
+    color: white;
+    padding: 15px;
+}
+
+#social, #address {display:none;}
+
+/* Gallery Grid */
+
+.gallery {display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 1em;
+    margin: 1em;}
+
+figcaption {display:none;}
+
+img[data-src] {filter: blur(0.2em);
+    width: 100%;}
+      
+img {filter: blur(0em);
+    transition: filter .5s;
+    width: 100%;}
+
+figure {margin:0;}
+
+/* Form styling */
+form fieldset {
+    border: 2px solid #474574;
+    border-radius: 10px;
+    padding: .5rem 2% 1.5rem 2%;
+    max-width: 800px;
+    margin: 1rem auto;}
+
+form legend {
+    color: rgb(71, 69, 116);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {display: block;
+    padding-top: 1rem;
+    font-size: .9rem;}
+
+form label.top input, form label.top select, input[type=text], textarea {
+    display: block;
+    font-size: 1rem;
+    border: 2px solid rgb(1, 126, 167);
+    border-radius: 5px;
+    padding: .75rem;
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgb(1, 126, 167, .1);
+    margin-right: 5vw;
+    margin-top: .3rem;
+}
+
+form label.sbs {display: block;
+    padding: .75rem 0;
+    color: #474574;
+    font-size: 1rem;}
+
+input.button {
+    display:block;
+    border: none;
+    background-color:rgb(71, 69, 116);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 20rem;}
+
+#severity {color:rgb(71, 69, 116);
+    display:block;}
+
+#ratingvalue {
+   position: relative !important;
+   margin-top: 15px;
+    }
+
+ .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 44px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    border-radius: 5px;
+    padding: 0 !important;
+      }
+
+.slider::-webkit-slider-thumb {
+        -webkit-appearance: none; /* Override default look */
+        appearance: none;
+        width: 44px; /* Set a specific slider handle width */
+        height: 44px; /* Slider handle height */
+        border-radius: 3px;
+        background: #474574; /* Green background */
+        cursor: pointer; /* Cursor on hover */
+      }
+      
+.slider::-moz-range-thumb {
+        width: 44px; /* Set a specific slider handle width */
+        height: 44px; /* Slider handle height */
+        background: #474574; /* Green background */
+        border-radius: 3px;
+        cursor: pointer; /* Cursor on hover */
+      }
+
+.thanks {margin: 10rem auto;
+}
+
+/* home grid */
+
+div.cards {display: grid;
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    gap: 1rem;
+    margin: 2rem auto;}
+
+.cards p, .cards p1, .cards p2 {display: block;
+    padding: .5rem;
+    margin: 0;
+    font-size: .9rem;
+}
+
+.cards h2 {font-size: 2rem;
+    padding-top: 1rem;
+    padding-left: .5rem;
+    margin: 0;}
+
+.cards h3 {font-size: 1.2rem;
+    font-style: italic;
+    padding: .5rem;
+    margin: 0;}
+
+.cards section { 
+    display: block;
+    background-color: #017EA7;
+    color: white;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 0;
+    }
+
+.cards img {
+    object-fit: contain;
+    display: block;}

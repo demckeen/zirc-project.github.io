@@ -31,24 +31,23 @@
     </nav>
     </header>
     <main>
-        <h2>Preston, Idaho</h2>
-        <div id="summarycontainer">
+        <h2 class="townheading">Preston, Idaho</h2>
+        <div class="summarycontainer">
             <picture class="heroimg">
                 <source media="(max-width: 535px)" srcset="images/hero_535.jpg">
                 <source media="(max-width: 800px)" srcset="images/hero_800.jpg">
                 <img src="images/hero_1200.jpg" alt="sunny day green grass">
             </picture>
-        <div id="summary"><h4>Weather Summary</h4>
-        <p>Temperature: <span id="degrees"></span>&deg;F <br> Wind: <span id="wind"></span> mph <br> Feels Like: <span id="windchill"></span></p>
-        <script src="js/windchill.js"></script></div>
+        <div class="summary"><h4>Weather Summary</h4>
+        <p>Current Conditions: <span id="weather"></span> <br> 
+           Temperature: <span id="degrees"></span>&deg;F <br> 
+           Feels Like: <span id="windchill"></span>&deg;F <br>
+           Wind: <span id="wind"></span> mph <br>
+           Humidity: <span id="humidity"></span>%</p>
         </div>
-        <h3 id="h3forecast">Five Day Forecast</h3>
-        <div id="forecast">
-            <img src="images/placeholder.png" id="day1" alt="image placeholder">
-            <img src="images/placeholder.png" id="day2" alt="image placeholder">
-            <img src="images/placeholder.png" id="day3" alt="image placeholder">
-            <img src="images/placeholder.png" id="day4" alt="image placeholder">
-            <img src="images/placeholder.png" id="day5" alt="image placeholder">
+        </div>
+        <h3 class="townheading">Five Day Forecast</h3>
+        <div class="forecast">
         </div>
         <div class="articlediv">
             <img src="images/snowwalk.jpg" class="articleimg" alt="man walking snowy landscape">
@@ -80,7 +79,7 @@
         <div id="footerbar">
         <p>&copy;<span id="year"></span> | Dana McKeen | Alabama | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
         <p id="dayofweek">Last Updated <span id="demo"></span></p>
-        <script src="js/preston.js"></script></div>
+        <script src="js/weathermoment.js"></script></div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script> WebFont.load({

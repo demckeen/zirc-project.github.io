@@ -46,11 +46,11 @@ picture.heroimg img{
     margin: 0 auto;
 }
 
-#summarycontainer {
+.summarycontainer {
     position: relative;
 }
 
-#summary {
+.summary {
     position: absolute;
     width: 240px;
     left: 3vw;
