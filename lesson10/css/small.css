@@ -435,8 +435,9 @@ div.cards {display: grid;
     margin: 0;}
 
 .forecast img {
-    max-width: 80%;
-    margin: 0 auto;}
+    display: block;
+    max-width: 80px;
+    margin: 0px auto;}
 
 .foredow {padding: 1rem;
     padding-bottom: 0;
