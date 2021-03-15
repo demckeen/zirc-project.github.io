@@ -73,6 +73,7 @@ nav {
     position: absolute;
     top: 5vh;
     right: 20%;
+    z-index: 999;
 }
 
 nav ul {

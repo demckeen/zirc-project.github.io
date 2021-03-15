@@ -82,6 +82,7 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    z-index: 999;
 }
 
 .navigation li:first-child {
