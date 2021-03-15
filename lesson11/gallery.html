@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dana McKeen">
+    <meta name="description" content="This is a gallery of weather related images for Weather Moment">
+    <title>Weather Gallery</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
+  <body class="content">
+    <p id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    <header>
+        <img src="images/logo.png" alt="icon featuring cloud, sun, and lightning">
+        <h1>Weather Moment</h1>
+        <p class="tagline">We're having a weather moment!</p>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#"><img id="hamicon" src="images/whitehamburgericon.png" alt="white 3 line menu icon"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="gallery">
+            <figure class="box"><img src="images/placeholder-400.jpg" data-src="images/aurora-400.jpg" alt="image of aurora borealis"><figcaption>Aurora borealis spotted in northern Idaho</figcaption></figure>
+            <figure class="box"><img src="images/placeholder-400.jpg" data-src="images/cyclone-400.jpg" alt="tornado over road"><figcaption>Tornado seen near Fish Haven</figcaption></figure>
+            <figure class="box"><img src="images/placeholder-400.jpg" data-src="images/wind-sock-400.jpg" alt="wind sock"><figcaption>Windy weather at the airport</figcaption></figure>
+            <figure class="box"><img src="images/placeholder-400.jpg" data-src="images/rainbow-400.jpg" alt="rainbow in front of mountains"><figcaption>Rainbow in Preston</figcaption></figure>
+            <figure class="box"><img src="images/placeholder-400.jpg" data-src="images/winter-400.jpg" alt="snowy scene"><figcaption>Snowy views in Soda Springs</figcaption></figure>
+            <figure class="box"><img src="images/placeholder-400.jpg" data-src="images/tornado-400.jpg" alt="tornado over water"><figcaption>Tornado over the lake</figcaption></figure>
+            <figure class="box"><img src="images/placeholder-400.jpg" data-src="images/yorkshire-sun-400.jpg" alt="sunny outdoor scene"><figcaption>Sunny days brighten our year</figcaption></figure>
+            <figure class="box"><img src="images/placeholder-400.jpg" data-src="images/nature-400.jpg" alt="green landscape with mountains"><figcaption>Part sun is still beautiful here</figcaption></figure>
+            <figure class="box"><img src="images/placeholder-400.jpg" data-src="images/flash-400.jpg" alt="lightning in dark sky"><figcaption>Lightning captured in a storm over southern Idaho</figcaption></figure>
+        </div>
+    </main>
+    <footer>
+        <div id="footermain">
+        <div id="contact"><p class="title">Contact Information</p>
+        <span id="address"><img id="mappin" src="images/whitepin.png" alt="white map pin">Address Info</span><br>
+        <span><img src="images/whitephone.png" alt="white phone icon">555-555-5555</span><br>
+        <span><img src="images/emailwhite.png" alt="white email icon">info@weathermoment.com</span><br>
+        <span id="social"><img src="images/facebook-3-512.png" alt="white facebook icon">
+        <img src="images/instagram-512.png" alt="white instagram icon">
+        <img src="images/twitter-512.png" alt="white twitter icon"></span> </div>
+        <div id="mapimg">
+            <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlEaAKvA3CIUFi9MbB7U2EMwWqjUIhzpE&callback=initMap&libraries=&v=weekly"
+            async
+          ></script>
+        </div></div>
+        <div id="footerbar">
+        <p>&copy;<span id="year"></span> | Dana McKeen | Alabama | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p id="dayofweek">Last Updated <span id="demo"></span></p>
+        <script src="js/weathermoment.js"></script></div>
+    </footer>
+    </body>
+    </html>
