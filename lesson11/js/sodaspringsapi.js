@@ -29,7 +29,7 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
 
-    for (let i = 1; i < jsObject.list.length; i++ ) {
+    for (let i = 0; i < jsObject.list.length; i++ ) {
     
       let sixo = jsObject.list[i].dt_txt.substr(11, 8);
 
