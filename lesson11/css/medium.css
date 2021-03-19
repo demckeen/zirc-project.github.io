@@ -150,6 +150,11 @@ div.cards {
     .cards img {width: 100%; height: auto; margin: auto 0;}
     .cards .imgbox {align-self:center;}
 
+/*events section*/
+.events {width: 375px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;}
+
 
 /*end media query*/    
 }

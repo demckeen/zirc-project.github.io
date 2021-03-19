@@ -3,7 +3,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    /*console.log(jsObject);*/
 
     let temp = parseInt((jsObject.main.temp - 273.15) * (9/5) + 32);
     let speed = jsObject.wind.speed;
@@ -27,7 +27,7 @@ fetch(apiURL)
   fetch(forecasturl)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    /*console.log(jsObject);*/
 
     for (let i = 1; i < jsObject.list.length; i++ ) {
     
@@ -59,3 +59,36 @@ fetch(apiURL)
     }
 
   });
+
+  /* JSON for Town Events */
+const eventsURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(eventsURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);
+    const towns = jsonObject['towns']; 
+    for (let i = 0; i < towns.length; i++ ) {
+      if (towns[i].name == "Preston") {
+
+        let list = document.createElement('section');
+        let events = document.createElement('p');
+        let ev1 = document.createElement('p');
+        let ev2 = document.createElement('p');
+        let ev3 = document.createElement('p');
+
+        events.textContent = 'Upcoming Preston Events';
+        ev1.textContent = towns[i].events[0];
+        ev2.textContent = towns[i].events[1];
+        ev3.textContent = towns[i].events[2];
+
+        
+        list.appendChild(events);
+        list.appendChild(ev1);
+        list.appendChild(ev2);
+        list.appendChild(ev3);
+        events.setAttribute('class','title');
+        
+        document.querySelector('div.events').appendChild(list);}
+  }});

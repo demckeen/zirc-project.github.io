@@ -450,3 +450,16 @@ div.cards {display: grid;
 
 .foretemp {text-align: center;
     margin-top: 0;}
+
+/* events Section Styling */ 
+
+.events {background-color: #474574;
+        color: white;
+        margin: 1rem auto;
+        padding: .6rem;}
+
+.events .title {
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 1.2rem;}
+
+.events p {font-size: 1rem;}
