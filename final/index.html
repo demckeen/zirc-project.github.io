@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dana McKeen">
+    <meta name="description" content="Connect with local businesses and community members who care about 
+    our city's economy through this Chamber of Commerce site.">
+    <title>Birmingham Chamber of Commerce</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
+  <body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" class="logo" alt="Birmingham Chamber of Commerce Logo"></a>
+        <h1>Birmingham Chamber of Commerce</h1>
+        <div id="topnav">
+            <ul>
+                <li><a href="birmingham.html">Birmingham</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+      <main>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                    <picture class="heroimg">
+                        <source media="(max-width: 600px)" srcset="images/sunset600.jpg">
+                        <source media="(max-width: 1000px)" srcset="images/sunset1000.jpg">
+                        <img src="images/sunset1920.jpg" alt="Birmingham, AL at sunset with water reflection" style="width:100%">
+                    </picture>
+                <div class="text">Magic City Sunset</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                    <picture class="heroimg">
+                        <source media="(max-width: 600px)" srcset="images/meeti600.jpg">
+                        <source media="(max-width: 1000px)" srcset="images/meeting1000.jpg">
+                        <img src="images/meeting1920.jpg" alt="people seated at table with computers" style="width:100%">
+                    </picture>
+                <div class="text">Sharing Ideas</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <picture class="heroimg">
+                    <source media="(max-width: 600px)" srcset="images/presentation600.jpg">
+                    <source media="(max-width: 1000px)" srcset="images/presentation1000.jpg">
+                    <img src="images/presentation1920.jpg" alt="people at conference table watching presentation" style="width:100%">
+                </picture>
+                <div class="text">Learning From Each Other</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <section id="feature"></section>
+            <h2>Featured Members</h2>
+            <div id="members">
+                <div>
+                    <img>
+                    <p>Business info</p>
+                </div>
+                <div>
+                    <img>
+                    <p>Business info</p>
+                </div>
+                <div>
+                    <img>
+                    <p>Business info</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div>
+                <p class="title">About</p>
+                <p>What is the chamber of commerce</p>
+            </div>
+            <div>
+                <p class="title">Become a Member Today!</p>
+                <p>Becoming a member gets ya benefits</p>
+                <button type="button">Learn More Here</button>
+            </div>
+        </section>
+        <section id="events">
+            <h3>Upcoming Events</h3>
+            <div class="events">
+                <div>
+                    <p class="title">Date</p>
+                    <p>Event Info</p>
+                </div>
+                <div>
+                    <p class="title">Date</p>
+                    <p>Event Info</p>
+                </div>
+                <div>
+                    <p class="title">Date</p>
+                    <p>Event Info</p>
+                </div>
+                <div>
+                    <p class="title">Date</p>
+                    <p>Event Info</p>
+                </div>
+                <div>
+                    <p class="title">Date</p>
+                    <p>Event Info</p>
+                </div>
+                <div>
+                    <p class="title">Date</p>
+                    <p>Event Info</p>
+                </div>
+            </div>
+        </section>
+        <section id="weather">
+            <div id="currweather">
+            </div>
+            <div id="forecast">
+            </div>
+        </section>
+      </main>
+    <footer>
+        <div class="footermain">
+            <div class="contact">
+                <a href="index.html"><img class="logo" src="images/logo.png" alt="Birmingham Chamber of Commerce Logo"></a>
+                <span>Birmingham Chamber of Commerce<br>
+                    Street Address<br>
+                    Birmingham, AL XXXXX</span>
+            </div>
+            <div class="social">
+                <a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+                <a href="http://www.instagram.com"><img src="images/instagram.png" alt="instagram logo"></a>
+                <a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter logo"></a>
+            </div>
+        </div>
+        <div class="bottombar"><p class="updated">Last Updated <span id="demo"></span></p></div>
+    </footer>
+  </body>
+  <script src="js/commerce.js"></script>
+</html>

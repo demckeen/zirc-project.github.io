@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Shippori+Mincho+B1:wght@700&display=swap');
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+header, footer {background-color: #1d3557;
+    color: white;
+    display: inline-flex;
+    width: 100%;}
+
+ul {list-style: none;}
+ul li {display:inline;}
+
+footer {position:relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,auto);}
+
+.footermain {display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: 1fr;}
+
+.social {justify-self: right;
+    margin-right: 3vw;}
+
+.social img { max-width: 20px;
+    margin: auto 10px;
+    padding-top: 45px;}
+
+.logo {max-width: 90px;
+  margin:10px;}
+
+h1,h2,h3,h4 {font-family:'Shippori Mincho B1', serif;}
+p, a {font-family: 'Poppins', sans-serif;}
+
+header {display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 110px auto auto;}
+
+header h1 {font-size: calc(15px + 1vw);
+    align-self: center;}
+
+.updated {
+    margin-bottom: 5px;
+    font-size: .75rem;}
+
+.contact {display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 110px auto;}
+
+.contact span {align-self: center;}
+
+#topnav {
+    justify-self: right;
+    margin-right: 2vw;
+    align-self:center;}
+
+#topnav a {color: white;}
+
+div.bottombar {justify-self: center;}
