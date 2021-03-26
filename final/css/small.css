@@ -32,6 +32,7 @@
   background-color: rgba(0,0,0,0.8);
 }
 .text {
+  background-color: rgba(0, 0, 0, 0.3);
   color: #f2f2f2;
   font-family: 'Poppins', sans-serif;
   font-size: calc(10px + .5vw);
@@ -174,3 +175,21 @@ div.bottombar {justify-self: center;
 #feature img {width: 100%;}
 
 #members {display: block;}
+
+#events {background-color: #a8dadc;
+  color: #1d3557;}
+
+#about {color:#1d3557;
+  padding-bottom: 15px;}
+
+#events h3 {font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;}
+
+.eventcards {display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );}
+
+button {margin-left: 10px;}
+
+.active {text-decoration: underline;}
