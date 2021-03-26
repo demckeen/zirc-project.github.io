@@ -88,24 +88,51 @@ header, footer {background-color: #1d3557;
     display: inline-flex;
     width: 100%;}
 
+#hamicon {
+    max-width: 25px;
+    height: auto;}
+  
+.navigation li {
+  display: none;}
+
+.responsive li {
+  display: block;
+  }
+
+.navigation li:first-child {
+    display: block;
+    background-color: #1d3557;
+  }
+
+.navigation li:first-child a {background-color: #1d3557;}
+
+.navigation li:first-child a:hover {background-color: #1d3557;}
+
+.navigation li:first-child a:active {background-color: #1d3557;}
+
+.navigation a {
+    display: block;
+    text-decoration: none;}
+
+.navigation a:hover {
+    color: #1d3557;
+    background-color: #f1faee;
+  }
+  
+
 ul {list-style: none;}
 ul li {display:inline;}
 
-footer {position:relative;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,auto);}
+footer {display: block;}
 
-.footermain {display: grid;
-    grid-template-columns: repeat(2,auto);
-    grid-template-rows: 1fr;}
+.social {text-align: center;}
 
-.social {justify-self: right;
-    margin-right: 3vw;}
+.bottombar {text-align: center;
+    padding-bottom: 10px;}
 
 .social img { max-width: 20px;
     margin: auto 10px;
-    padding-top: 45px;}
+    padding-top: 10px;}
 
 .logo {max-width: 90px;
   margin:10px;}
@@ -120,9 +147,7 @@ header {display: grid;
 header h1 {font-size: calc(15px + 1vw);
     align-self: center;}
 
-.updated {
-    margin-bottom: 5px;
-    font-size: .75rem;}
+.updated {font-size: .75rem;}
 
 .contact {display: grid;
     grid-template-rows: 1fr;
@@ -130,11 +155,23 @@ header h1 {font-size: calc(15px + 1vw);
 
 .contact span {align-self: center;}
 
-#topnav {
+.navigation {
     justify-self: right;
     margin-right: 2vw;
     align-self:center;}
 
-#topnav a {color: white;}
+.navigation ul a {color: white;
+    margin-right:10px;}
 
-div.bottombar {justify-self: center;}
+div.bottombar {justify-self: center;
+    align-self: center;}
+
+#feature {background-color: #457b9d;
+  color: white;
+  padding-top: .5rem;
+  padding-bottom: .75rem;
+  margin-top: 15px;} 
+
+#feature img {width: 100%;}
+
+#members {display: block;}
