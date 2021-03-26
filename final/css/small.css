@@ -33,26 +33,19 @@
 }
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(10px + .5vw);
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
 }
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: calc(5px + 1vw);
+  width: calc(5px + 1vw);
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -60,17 +53,20 @@
   transition: background-color 0.6s ease;
 }
 
+#dots {display: none;}
+
 .active, .dot:hover {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
+body {background-color: #f1faee;}
 
 @-webkit-keyframes fade {
   from {opacity: .4}
@@ -137,8 +133,12 @@ footer {display: block;}
 .logo {max-width: 90px;
   margin:10px;}
 
-h1,h2,h3,h4 {font-family:'Shippori Mincho B1', serif;}
-p, a {font-family: 'Poppins', sans-serif;}
+h1,h2,h3,h4, .title {font-family:'Shippori Mincho B1', serif;
+  margin-left: 10px;}
+p, a {font-family: 'Poppins', sans-serif;
+  margin-left: 10px;}
+
+.title {font-size: 1.5rem;}
 
 header {display: grid;
   grid-template-rows: 1fr;
@@ -169,8 +169,7 @@ div.bottombar {justify-self: center;
 #feature {background-color: #457b9d;
   color: white;
   padding-top: .5rem;
-  padding-bottom: .75rem;
-  margin-top: 15px;} 
+  padding-bottom: .75rem;} 
 
 #feature img {width: 100%;}
 

@@ -31,5 +31,14 @@
     
     .social img {padding-top: 45px;}
 
+    #about {display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin-left: 10px;
+        }
+
+    #dots {display: block;
+        padding-bottom: 15px;}
+
 /*end media query*/
 }
