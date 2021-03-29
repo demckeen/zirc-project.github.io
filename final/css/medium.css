@@ -41,5 +41,21 @@
     #dots {display: block;
         padding-bottom: 15px;}
 
+    #weather {display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr;}
+
+    .forecast {margin-left: 1rem;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        gap: 2rem;}
+
+    .currweather div {  margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;}
+
+    #weather .title {font-size: calc(8px + 1vw);}
+
 /*end media query*/
 }

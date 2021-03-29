@@ -122,6 +122,8 @@ ul li {display:inline;}
 
 footer {display: block;}
 
+footer span {margin-left: 10px;}
+
 .social {text-align: center;}
 
 .bottombar {text-align: center;
@@ -193,3 +195,37 @@ div.bottombar {justify-self: center;
 button {margin-left: 10px;}
 
 .active {text-decoration: underline;}
+
+.medium p {font-size: 1.2rem;
+  margin-top: 0;}
+
+#weather {display: block;}
+
+.forecast {display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: .5rem;
+  margin-left: .5rem;
+  margin-bottom: 1rem;
+  margin-right: .5rem;}
+
+.forecast div {background-color: white;
+  color: #1d3557;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(63, 61, 61);
+  text-align: center;}
+
+.currweather div {background-color: white;
+  color: #1d3557;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(63, 61, 61);
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: .5rem;
+  margin-right: .5rem;}
+
+#currwdiv {background-color:#457b9d;
+  color: white;}
+
+.currweather p:first-child {padding-top: 15px;}
+.currweather p:last-child {padding-bottom: 15px;}
