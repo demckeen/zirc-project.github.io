@@ -229,3 +229,8 @@ button {margin-left: 10px;}
 
 .currweather p:first-child {padding-top: 15px;}
 .currweather p:last-child {padding-bottom: 15px;}
+
+.subhead {font-size: 1.3rem;}
+
+footer a {color: white;}
+.bottombar a {display: inline;}
