@@ -184,6 +184,9 @@ div.bottombar {justify-self: center;
 #about {color:#1d3557;
   padding-bottom: 15px;}
 
+#identity {background-color: #1d3557;
+  color: white;}
+
 #events h3 {font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 0;
@@ -192,7 +195,25 @@ div.bottombar {justify-self: center;
 .eventcards {display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );}
 
-button {margin-left: 10px;}
+.button {margin-left: 10px;
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #1d3557;
+  margin: 0 .7rem 0 .7rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Poppins',sans-serif;
+  font-weight:300;
+  background-color: #f1faee;
+  color: #1d3557;
+  text-align:center;
+  transition: all 0.2s;
+  }
+
+.button:hover {color: white;
+  background-color: #1d3557;
+  cursor: pointer;}
 
 .active {text-decoration: underline;}
 
