@@ -69,8 +69,15 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;}
 
-    .chart .title {
-        font-size: calc(6px + 2vw);}
+    #whybham {display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        margin-left: 1rem;
+        gap: 1rem;
+        margin-right: 1rem;}
+    
+    .whyimg {width: 100%;
+        align-self: center;}
     
 
 /*end media query*/

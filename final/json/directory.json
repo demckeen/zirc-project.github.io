@@ -1,0 +1,87 @@
+{
+    "directory": [
+        {"name": "Teksouth",
+         "address": "1420 Northbrook Dr. Ste 220",
+         "city": "Gardendale, AL 25071",
+        "logo": "images/teksouth.png",
+        "website": "https://www.teksouth.com/",
+        "phone": "(205) 631-1500"},
+
+        {"name": "Belfor",
+            "address": "2425 2nd Avenue South",
+            "city" : "Birmingham, AL 35233",
+           "logo": "images/belfor.png",
+           "website": "https://www.belfor.com/en/us/belfor-usa-offices/alabama/birmingham",
+           "phone": "205.458.9106"},
+
+        {"name": "BancorpSouth",
+            "address": "2201 Highland Avenue South",
+            "city": "Birmingham, AL 35205",
+           "logo": "images/bancorp.png",
+           "website": "https://www.bancorpsouth.com/",
+           "phone": "(205) 939-4249"},
+
+        {"name": "Children's of Alabama",
+            "address": "1600 7th Avenue South",
+            "city" : "Birmingham, AL 35233-1785",
+           "logo": "images/childrens.png",
+           "website": "https://www.childrensal.org/",
+           "phone": "(205) 939-9100"},
+
+        {"name": "Alabama Wire, Inc.",
+            "address": "3000 Highway 11",
+            "city" : "Pelham, AL 35124",
+           "logo": "images/alabamawire.png",
+           "website": "https://www.alabamawire.com/",
+           "phone": "(205) 663-6743"},
+        
+        {"name": "Southern Sky Aviation",
+            "address": "4255 East Lake Blvd",
+            "city" : "Birmingham, AL 35217",
+           "logo": "southernsky.png",
+           "website": "https://southernskyaviation.com/",
+           "phone": "(205) 703-9737"},
+           
+        {"name": "Buffalo Rock Company",
+            "address": "111 Oxmoor Road",
+            "city" : "Birmingham, AL 35209",
+           "logo": "images/buffalorock.png",
+           "website": "https://www.buffalorock.com/",
+           "phone": "(205) 942-3435"},
+           
+        {"name": "Birmingham Barons",
+            "address": "P O Box 877",
+            "city" : "Birmingham, AL 35201",
+           "logo": "images/barons.png",
+           "website": "https://www.milb.com/birmingham",
+           "phone": "(205) 988-3200"},
+        
+        {"name": "Lakeshore Foundation",
+            "address": "4000 Ridgeway Drive",
+            "city" : "Birmingham, AL 35209",
+           "logo": "images/lakeshore.png",
+           "website": "https://www.lakeshore.org/",
+           "phone": "(205) 313-7474"},
+           
+        {"name": "McWane Science Center",
+            "address": "200 19th Street North",
+            "city" : "Birmingham, AL 35203-3117",
+           "logo": "images/mcwane.jpg",
+           "website": "https://www.mcwane.org/",
+           "phone": "(205) 714-8300"},
+           
+        {"name": "Alabama Public Television",
+            "address": "2112 11th Avenue So #400",
+            "city" : "Birmingham, AL 35205",
+           "logo": "images/apt.png",
+           "website": "https://aptv.org/",
+           "phone": "(205) 328-8756"},
+           
+        {"name": "Mercedes-Benz",
+            "address": "1 Mercedes Drive",
+            "city" : "Vance, AL 35490",
+           "logo": "images/mercedes.png",
+           "website": "https://www.mbusi.com/",
+           "phone": "(205) 507-3300"}
+    ]
+}

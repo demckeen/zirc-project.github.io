@@ -257,6 +257,17 @@ footer a {color: white;}
 .bottombar a {display: inline;}
 
 #data {display: grid;
-  grid-template-columns: 1fr;}
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;}
 
 #data img {width: 100%}
+
+.chart .title {color: #1d3577;}
+
+#whytxt {margin: 1rem;}
+
+.whyimg {display: block;
+  margin: 0 auto;}
