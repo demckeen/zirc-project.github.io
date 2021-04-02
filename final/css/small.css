@@ -255,3 +255,8 @@ div.bottombar {justify-self: center;
 
 footer a {color: white;}
 .bottombar a {display: inline;}
+
+#data {display: grid;
+  grid-template-columns: 1fr;}
+
+#data img {width: 100%}

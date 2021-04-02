@@ -65,5 +65,17 @@
         padding-bottom: 1.2rem;}
     #join {padding-right: 1.2rem;}
 
+    #data {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;}
+
+    .chart .title {
+        font-size: calc(6px + 2vw)}
+    
+
 /*end media query*/
 }
