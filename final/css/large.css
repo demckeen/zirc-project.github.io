@@ -1,14 +1,11 @@
 @media only screen and (min-width: 50em) {
 
-#weather .title {font-size: 1.5rem};
+#data {grid-template-columns: repeat(4, 1fr);}
 
-#data {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;}
-
-.chart .title {padding-bottom: 1.1em;
-        font-size: calc(6px + 1vw)}
 .chart:first-child .title {padding-bottom: 0;}
+.chart .title {padding-bottom: 1.5rem;
+    font-size: calc(6px + 1.05vw);}
+
 
 
 /*end media query*/
