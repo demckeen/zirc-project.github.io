@@ -5,6 +5,9 @@
 
 .chart .title {font-size: calc(4px + 1rem);}
 
+.cards {grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);}
+
 
 /*end media query*/
 }

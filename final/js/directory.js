@@ -5,6 +5,13 @@ const mainnav = document.querySelector(".navigation");
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
+const listify = document.querySelector('.listify');
+const gridify = document.querySelector(".gridify");
+const directory = document.querySelector('.cards');
+
+listify.addEventListener('click', () => {directory.classList.remove('cards'), directory.classList.add('list')});
+gridify.addEventListener('click', () => {directory.classList.remove('list'), directory.classList.add('cards')});
+
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
 const requestURL = 'json/directory.json';

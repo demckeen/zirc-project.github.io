@@ -273,10 +273,34 @@ footer a {color: white;}
   margin: 0 auto;}
 
 .cards {display: grid;
-  grid-template-columns: repeat(autofit, minmax(200px, 1fr));}  
+  grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  margin-bottom: 1rem;
+  gap: 1rem;
+  justify-content: center;}  
 
 .cards img {display: block;
-  margin: 10px;}
+  margin: 10px;
+  max-width: 200px;}
 
 .cards span {display: block;
   margin: 5px;}
+
+.cards section {margin-bottom: 10px;}
+
+.list section{display: grid;
+  width: 100%;
+  grid-template-areas: "name name name"
+                       "img span1 web"
+                       "img span2 phone";
+                    gap: 5px;
+                    justify-content: start;
+                    margin: 1rem;
+                    padding: 10px;}
+.list img {grid-area: img; max-width: 150px;
+max-height: 100px;}
+.list section span:first-child {grid-area: span1;}
+.list section span:nth-child(2) {grid-area: span2;}
+.list section a {grid-area: web;}
+.list section p:first-child {grid-area: name;}
+.list section p:last-child {grid-area: phone;}
+.list section p {margin: 5px;}
