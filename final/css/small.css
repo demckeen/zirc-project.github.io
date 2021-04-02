@@ -271,3 +271,12 @@ footer a {color: white;}
 
 .whyimg {display: block;
   margin: 0 auto;}
+
+.cards {display: grid;
+  grid-template-columns: repeat(autofit, minmax(200px, 1fr));}  
+
+.cards img {display: block;
+  margin: 10px;}
+
+.cards span {display: block;
+  margin: 5px;}
