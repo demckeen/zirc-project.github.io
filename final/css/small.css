@@ -256,12 +256,13 @@ div.bottombar {justify-self: center;
 footer a {color: white;}
 .bottombar a {display: inline;}
 
-#data {display: grid;
+#data, #cityevents, #whybham {display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
-  margin-right: 1rem;}
+  margin-right: 1rem;
+  color: #1d3557;}
 
 #data img {width: 100%}
 
@@ -322,3 +323,7 @@ button, #dirh2 {margin-left: 10px;
   margin-left: 10px;}
 
 .gridify {margin-left: 0px;}
+
+.intro ul li {list-style-type:disc;
+  display: list-item;
+  font-family: 'Poppins',serif;}
