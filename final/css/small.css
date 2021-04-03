@@ -195,7 +195,7 @@ div.bottombar {justify-self: center;
 .eventcards {display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );}
 
-.button {margin-left: 10px;
+.button, .listify, .gridify {margin-left: 10px;
   display:inline-block;
   padding:0.35em 1.2em;
   border:0.1em solid #1d3557;
@@ -211,7 +211,7 @@ div.bottombar {justify-self: center;
   transition: all 0.2s;
   }
 
-.button:hover {color: white;
+.button:hover, .listify:hover, .gridify:hover {color: white;
   background-color: #1d3557;
   cursor: pointer;}
 
@@ -275,6 +275,7 @@ footer a {color: white;}
 .cards {display: grid;
   grid-template-columns: repeat(autofit, minmax(200px, 1fr));
   margin-bottom: 1rem;
+  margin-left: 1rem;
   gap: 1rem;
   justify-content: center;}  
 
@@ -283,7 +284,11 @@ footer a {color: white;}
   max-width: 200px;}
 
 .cards span {display: block;
+  font-family: 'Poppins', sans-serif;
+  color: #1d3557;
   margin: 5px;}
+
+.cards p {color: #1d3557;}
 
 .cards section {margin-bottom: 10px;}
 
@@ -293,10 +298,12 @@ footer a {color: white;}
                        "img span1 web"
                        "img span2 phone";
                     gap: 5px;
+                    column-gap: .5rem;
                     justify-content: start;
-                    margin: 1rem;
-                    padding: 10px;}
-.list img {grid-area: img; max-width: 150px;
+                    margin-left: 10px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;}
+.list img {grid-area: img; max-width: 100px;
 max-height: 100px;}
 .list section span:first-child {grid-area: span1;}
 .list section span:nth-child(2) {grid-area: span2;}
@@ -304,3 +311,15 @@ max-height: 100px;}
 .list section p:first-child {grid-area: name;}
 .list section p:last-child {grid-area: phone;}
 .list section p {margin: 5px;}
+.list span {font-family: 'Poppins', sans-serif;
+  color: #1d3557;}
+.list p {color: #1d3557;}
+
+button, #dirh2 {margin-left: 10px;
+  color: #1d3557;
+  }
+
+.listify {margin-right: 0px;
+  margin-left: 10px;}
+
+.gridify {margin-left: 0px;}
