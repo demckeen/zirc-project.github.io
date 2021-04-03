@@ -303,8 +303,7 @@ footer a {color: white;}
                     margin-left: 10px;
                     padding-top: 10px;
                     padding-bottom: 10px;}
-.list img {grid-area: img; max-width: 100px;
-max-height: 100px;}
+.list img {grid-area: img; max-width: 100px;}
 .list section span:first-child {grid-area: span1;}
 .list section span:nth-child(2) {grid-area: span2;}
 .list section a {grid-area: web;}
