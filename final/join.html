@@ -134,11 +134,27 @@
                 <li>Featured advertisement in all chamber newsletters</li>
                 <li>Advance access to special events throughout the year</li>
             </ul>
+        </div>
             <br>
+        <div class="form">
             <p class="title">Join Today!</p>
+            <form method="get" action="applythanks.html">
             <p>Submit your member application through the form below to begin the process today.</p>
-
-      </div>
+            <label class="top">First Name*<input type="text" name="firstname" required pattern="[A-Za-z]{2,}" title="Must contain upper or lowercase letters, no numbers or symbols"></label>
+            <label class="top">Last Name*<input type="text" name="lastname" required pattern="[A-Za-z]{2,}" title="Must contain upper or lowercase letters, no numbers or symbols"></label>            
+            <label class="top">Title<input type="text" name="title"></label>
+            <label class="top">Email<input type="email" name="email" placeholder="email@website.com"></label>
+            <label class="top">Cell Phone*<input type="tel" name="phone" required></label>
+            <label class="top">Business Name*<input type="text" name="busname" required></label>
+            <label class="top">Business Address:
+                <textarea id="comments" name="busaddress" rows="5" cols="40"></textarea></label>
+            <label class="top">Business Website:<input type="url" name="website" placeholder="http://www.yoursite.com"></label>
+            <label class="top">Business Description:
+                <textarea id="description" name="busdescription" rows="5" cols="40"></textarea></label>
+            
+            <input class="button" id="formbutton" type="submit" value="Apply For Membership">
+            </form>
+        </div>
       </main>
     <footer>
         <div class="footermain">
