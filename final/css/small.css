@@ -126,10 +126,12 @@ footer span {margin-left: 10px;}
 
 .social {text-align: center;}
 
+#contactsocial {margin-left: 100px;}
+
 .bottombar {text-align: center;
     padding-bottom: 10px;}
 
-.social img { max-width: 20px;
+.social img, #contactsocial img { max-width: 20px;
     margin: auto 10px;
     padding-top: 10px;}
 
@@ -156,7 +158,8 @@ header h1 {font-size: calc(15px + 1vw);
     grid-template-rows: 1fr;
     grid-template-columns: 110px auto;}
 
-.contact span {align-self: center;}
+.contact span {align-self: center;
+  font-family: 'Poppins', serif;}
 
 .navigation {
     justify-self: right;
@@ -275,7 +278,7 @@ footer a {color: white;}
   margin: 0 auto;}
 
 .cards {display: grid;
-  grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-bottom: 1rem;
   margin-left: 1rem;
   gap: 1rem;
@@ -355,3 +358,33 @@ main {min-height: 60vh;}
 .contact .logo {margin-bottom: 0;}
 
 #appthanks {margin-left: 1rem;}
+
+#mapcontact {display: grid;
+  grid-template-columns: 1fr;
+  background-color: #457b9d;
+  color: white;
+  font-family: 'Poppins', serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-items: center;}
+
+#mapcontact iframe {width: 80%;
+  border-radius: 4px;}
+
+#contactbox {justify-self: center;
+  align-self: center;}
+
+.details {font-size: .85rem;
+  font-style:italic;
+  margin-top: 0px;}
+
+.boardmember p:first-child {margin-bottom: 5px;}
+
+#board {background-color: #457b9d;
+  color: white;
+  padding: .5rem;}
+
+#bdmembers {display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-right: 10px;
+  column-gap: 10px;}
