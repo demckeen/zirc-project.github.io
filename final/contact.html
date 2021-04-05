@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Dana McKeen">
-    <meta name="description" content="Connect with local businesses and community members who care about 
-    our city's economy through this Chamber of Commerce site.">
-    <title>Birmingham Chamber of Commerce</title>
+    <meta name="description" content="Find contact information for the board of the Birmingham, AL Chamber of 
+        Commerce or submit your comments via this site.">
+    <title>Contact</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -28,6 +28,97 @@
         </div>
     </header>
       <main>
+        <div id="mapcontact">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212854.0076184854!2d-86.99022423660482!3d33.53144475433977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888911df5885bfd3%3A0x25507409eaba54ce!2sBirmingham%2C%20AL!5e0!3m2!1sen!2sus!4v1617512855495!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <div id="contactbox">
+          <div class="contact"><a href="index.html"><img class="logo" src="images/logo.png" alt="Birmingham Chamber of Commerce Logo"></a>
+            <span>Birmingham Chamber of Commerce<br>
+              505 20th St N #200<br>
+              Birmingham, AL 35204</span></div>
+              
+            <div id="contactsocial">
+              <a href="https://www.facebook.com/bhmbizalliance"><img src="images/facebook.png" alt="facebook logo"></a>
+              <a href="https://www.instagram.com/onboardbham/"><img src="images/instagram.png" alt="instagram logo"></a>
+              <a href="https://twitter.com/BHMBizAlliance"><img src="images/twitter.png" alt="twitter logo"></a>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <p class="title">Contact Us</p>
+          <form method="get" action="contactthanks.html">
+          <p>Submit any comments and questions for the Chamber here:</p>
+          <label class="top">First Name<input type="text" name="firstname" required pattern="[A-Za-z]{2,}" title="Must contain upper or lowercase letters, no numbers or symbols"></label>
+          <label class="top">Last Name<input type="text" name="lastname" required pattern="[A-Za-z]{2,}" title="Must contain upper or lowercase letters, no numbers or symbols"></label>            
+          <label class="top">Cell Phone<input type="tel" name="phone" required></label>
+          <label class="top">Email<input type="email" name="email" placeholder="email@website.com" required></label>
+          <label class="top">Cell Phone*<input type="tel" name="phone" required></label>
+          <label class="top">Comments:
+              <textarea id="description" name="comments" rows="5" cols="40"></textarea></label>
+          
+          <input class="button" id="formbutton" type="submit" value="Send Your Comments">
+          </form>
+      </div>
+        <div id="board">
+          <h2>Executive Board of Directors</h2>
+          <div id="bdmembers">
+            <div class="boardmember">
+              <p>Commissioner Steve Ammons</p>
+              <p class="details">Jefferson County Commission</p>
+            </div>
+            <div class="boardmember">
+              <p>Nelson Bean</p>
+              <p class="details">Synovus</p>
+            </div>
+            <div class="boardmember">
+              <p>Mark Crosswhite</p>
+              <p class="details">Alabama Power Co.</p>
+            </div>
+            <div class="boardmember">
+              <p>Gregory Curran</p>
+              <p class="details">Maynard Cooper & Gale PC</p>
+            </div>
+            <div class="boardmember">
+              <p>Jim Gorrie</p>
+              <p class="details">Brasfield & Gorrie LLC</p>
+            </div>
+            <div class="boardmember">
+              <p>Joe Hampton</p>
+              <p class="details">Spire</p>
+            </div>
+            <div class="boardmember">
+              <p>Bobbie Knight</p>
+              <p class="details">Miles College</p>
+            </div>
+            <div class="boardmember">
+              <p>Dawn Sharff</p>
+              <p class="details">Bradley</p>
+            </div>
+            <div class="boardmember">
+              <p>Dr. Sanjay Singh</p>
+              <p class="details">Pack Health</p>
+            </div>
+            <div class="boardmember">
+              <p>Mark Tarr</p>
+              <p class="details">Encompass Health</p>
+            </div>
+            <div class="boardmember">
+              <p>John Turner</p>
+              <p class="details">Regions Bank</p>
+            </div>
+            <div class="boardmember">
+              <p>Tim Vines</p>
+              <p class="details">Blue Cross and Blue Shield of Alabama</p>
+            </div>
+            <div class="boardmember">
+              <p>Dr. Ray Watts</p>
+              <p class="details">University of Alabama at Birmingham</p>
+            </div>
+            <div class="boardmember">
+              <p>Mayor Randall Woodfin</p>
+              <p class="details">City of Birmingham</p>
+            </div>
+          </div>
+        </div>
       </main>
     <footer>
         <div class="footermain">
