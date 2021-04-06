@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Shippori+Mincho+B1:wght@700&display=swap');
 
-body {background-color: #f1faee;}
 main {max-width: 900px;
-  margin: 0 auto;}
+  margin: 0 auto;
+  background-color:#f1faee;}
+
+body {background-color: #1d3557;}
 
 * {box-sizing:border-box}
 
@@ -71,8 +73,6 @@ main {max-width: 900px;
   animation-duration: 1.5s;
 }
 
-body {background-color: #f1faee;}
-
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -111,15 +111,21 @@ header, footer {background-color: #1d3557;
 
 .navigation li:first-child a:active {background-color: #1d3557;}
 
+.navigation .active {background-color: #a8dadc;}
+
+.navigation .active a {color: #1d3557;}
+
 .navigation a {
     display: block;
-    text-decoration: none;}
+    text-decoration: none;
+    margin-left: 10px;}
 
 .navigation a:hover {
     color: #1d3557;
     background-color: #f1faee;
   }
-  
+
+.navigation li:hover {background-color: #f1faee;}
 
 ul {list-style: none;}
 ul li {display:inline;}
@@ -142,12 +148,11 @@ footer span {margin-left: 10px;}
 .logo {max-width: 90px;
   margin:10px;}
 
-h1,h2,h3,h4, .title {font-family:'Shippori Mincho B1', serif;
-  margin-left: 10px;}
-p, a {font-family: 'Poppins', sans-serif;
-  margin-left: 10px;}
+h1,h2,h3,h4, .title {font-family:'Shippori Mincho B1', serif;}
+p, a {font-family: 'Poppins', sans-serif;}
 
-.title {font-size: 1.5rem;}
+.title {font-size: 1.5rem;
+  margin-left: 1rem;}
 
 header {display: grid;
   grid-template-rows: 1fr;
@@ -182,46 +187,61 @@ div.bottombar {justify-self: center;
   padding-top: .5rem;
   padding-bottom: .75rem;} 
 
+#feature h2 {margin-left: 1.6rem;}
+
 #members .subhead {font-family: 'Shippori Mincho B1', serif;
     font-size: 1.2rem;}
 
 #members img {width: 100%;
-  margin: 0 auto;}
+  margin: 1rem auto 0 auto;}
 
 #members {display: block;}
 
-#members p  {margin-left: 1rem;
+#members p, #members a  {margin-left: 1rem;
   margin-right: 1rem;
   font-size: .9rem;
   }
+
+#members a {margin-bottom: 1rem;
+  color: white;}
 
 #join {margin-left: 1rem;
   margin-right: 1rem;
   }
 
-#events {background-color: #a8dadc;
+#join .button {margin-left: 0px;}
+
+.events {background-color: #a8dadc;
   color: #1d3557;}
 
 #about  {color:#1d3557;
   padding-bottom: 15px;}
 
+#about .title {margin-left: 0px;}
+
 #identity {background-color: #1d3557;
   color: white;
-  padding: .5rem;}
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;}
 
-#events h3 {font-size: 1.5rem;
+.events h3 {font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 10px;
   margin-left: 1rem;}
 
 .eventcards {display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
+  grid-template-columns: 1fr;
   gap: 1rem;
-  margin: 1rem;}
+  margin-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;}
 
 .eventcards .title {margin-bottom: 0px;
-  margin-top: 0px;}
+  margin-top: 0px;
+  margin-left: 0px;}
 
 .eventcards p {margin-right: 10px;}
 
@@ -243,26 +263,27 @@ div.bottombar {justify-self: center;
 
 .button:hover, .listify:hover, .gridify:hover {color: white;
   background-color: #1d3557;
-  cursor: pointer;}
-
-.active {text-decoration: underline;}
+  cursor: pointer;} 
 
 .medium p {font-size: 1.2rem;
   margin-top: 0;}
 
 #weather {display: block;}
 
+#weather .title {margin-left: .85rem;}
+
 .forecast {display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: .5rem;
   margin-left: .5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
   margin-right: .5rem;}
 
 .forecast div {background-color: white;
   color: #1d3557;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgb(63, 61, 61);
+  box-shadow: 0px 0px 10px #1d3557;
   text-align: center;}
 
 #forecastdiv {color: #1d3557;}
@@ -270,7 +291,7 @@ div.bottombar {justify-self: center;
 .currweather div {background-color: white;
   color: #1d3557;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgb(63, 61, 61);
+  box-shadow: 0px 0px 10px #1d3557;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -278,7 +299,11 @@ div.bottombar {justify-self: center;
   margin-right: .5rem;}
 
 #currwdiv {background-color:#457b9d;
-  color: white;}
+  color: white;
+  padding-bottom: .5rem;
+  padding-top: .5rem;}
+
+#currwdiv .title {margin-top: .5rem;}
 
 .currweather p:first-child {padding-top: 15px;}
 .currweather p:last-child {padding-bottom: 15px;}
@@ -296,7 +321,7 @@ footer a {color: white;}
 
 #data img {width: 100%}
 
-.chart .title {color: #1d3577;}
+.chart .title {color: #1d3557;}
 
 #whytxt {margin: 1rem;}
 
@@ -305,7 +330,7 @@ footer a {color: white;}
 
 .cards {display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   margin-left: 1rem;
   gap: 1rem;
   justify-content: center;}  
@@ -344,10 +369,14 @@ footer a {color: white;}
 .list span {font-family: 'Poppins', sans-serif;
   color: #1d3557;}
 .list p {color: #1d3557;}
+.list {padding-bottom: 1rem;}
 
 button, #dirh2 {margin-left: 10px;
   color: #1d3557;
   }
+
+#dirh2 {padding-top: 1rem;
+  margin-top: 0;}
 
 .listify {margin-right: 0px;
   margin-left: 10px;}

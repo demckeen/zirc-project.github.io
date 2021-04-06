@@ -14,8 +14,6 @@
 
     #members p {margin-left: 10px;}
 
-    #members a {color: white;}
-
     .navigation li {display: inline-block;}
 
     .navigation li:first-child {
@@ -54,7 +52,7 @@
         grid-template-rows: 1fr;}
 
     .forecast {margin-left: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         margin-right: 2rem;
         gap: 2rem;}
 
@@ -87,6 +85,8 @@
     
     .whyimg {width: 100%;
         align-self: center;}
+
+    .eventcards {grid-template-columns: 1fr 1fr;}
 
     .cards {grid-template-columns: repeat(3, 1fr);}
 
