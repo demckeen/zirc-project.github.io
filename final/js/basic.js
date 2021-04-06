@@ -36,6 +36,8 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
+let imagesToLoad = document.querySelectorAll('img');
+
 if('IntersectionObserver' in window) {
   const observer = new IntersectionObserver((items, observer) => {
     items.forEach((item) => {
