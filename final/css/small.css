@@ -217,7 +217,12 @@ div.bottombar {justify-self: center;
 #about  {color:#1d3557;
   padding-bottom: 15px;}
 
-#about .title {margin-left: 0px;}
+#about h2, #about h3 {font-size: 1.5rem;}
+
+.events h4 {font-size: 1.5rem;
+  padding-top: 1rem;
+  margin-top: 0;
+  margin-left: 1rem;}
 
 #identity {background-color: #1d3557;
   color: white;
