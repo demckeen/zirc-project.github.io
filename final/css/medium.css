@@ -112,5 +112,11 @@
 
     #board {padding: 2rem;}
 
+    div.intro {display: block;
+        margin-left: 3rem;
+        margin-right: 3rem;}
+
+    .intro p {max-width: 600px;}
+
 /*end media query*/
 }

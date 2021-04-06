@@ -407,7 +407,8 @@ button, #dirh2 {margin-left: 10px;
 .intro .title {font-size: 1.2rem;
   margin-left: 0;}
 
-.intro {color: #1d3557;}
+div.intro {color: #1d3557;
+  margin: 1rem;}
 
 form label.top, .form {display: block;
     padding-top: 1rem;
