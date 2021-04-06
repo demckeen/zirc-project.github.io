@@ -228,7 +228,7 @@ div.bottombar {justify-self: center;
 
 .events h3 {font-size: 1.5rem;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   padding-top: 10px;
   margin-left: 1rem;}
 
@@ -241,7 +241,8 @@ div.bottombar {justify-self: center;
 
 .eventcards .title {margin-bottom: 0px;
   margin-top: 0px;
-  margin-left: 0px;}
+  margin-left: 0px;
+  font-size: 1.3rem;}
 
 .eventcards p {margin-right: 10px;}
 
@@ -328,16 +329,21 @@ footer a {color: white;}
 .whyimg {display: block;
   margin: 0 auto;}
 
+#directory {max-width: 100%;}
+
 .cards {display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   padding-bottom: 1rem;
-  margin-left: 1rem;
+  margin: 1rem;
   gap: 1rem;
   justify-content: center;}  
 
 .cards img {display: block;
-  margin: 10px;
+  margin: 0px;
   max-width: 200px;}
+
+.cards .title {margin-left: 0;
+  margin-top: .5rem;}
 
 .cards span {display: block;
   font-family: 'Poppins', sans-serif;
@@ -346,30 +352,36 @@ footer a {color: white;}
 
 .cards p {color: #1d3557;}
 
-.cards section {margin-bottom: 10px;}
+.cards section {
+  background-color: white;
+  color: #1d3557;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #1d3557;
+  padding: 1rem;}
 
 .list section{display: grid;
   width: 100%;
-  grid-template-areas: "name name name"
-                       "img span1 web"
-                       "img span2 phone";
-                    gap: 5px;
-                    column-gap: .5rem;
-                    justify-content: start;
-                    margin-left: 10px;
-                    padding-top: 10px;
-                    padding-bottom: 10px;}
-.list img {grid-area: img; max-width: 100px;}
+  grid-template-areas: "name name"
+                       "span1 web"
+                       "span2 phone";
+  gap: 5px;
+  column-gap: .5rem;
+  justify-content: start;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;}
+.list img {display: none;}
 .list section span:first-child {grid-area: span1;}
-.list section span:nth-child(2) {grid-area: span2;}
+.list section span:last-child {grid-area: span2;}
 .list section a {grid-area: web;}
 .list section p:first-child {grid-area: name;}
 .list section p:last-child {grid-area: phone;}
-.list section p {margin: 5px;}
+.list section p {margin: 0px;}
 .list span {font-family: 'Poppins', sans-serif;
   color: #1d3557;}
 .list p {color: #1d3557;}
 .list {padding-bottom: 1rem;}
+.list .title {margin-left: 0;}
 
 button, #dirh2 {margin-left: 10px;
   color: #1d3557;
@@ -387,7 +399,12 @@ button, #dirh2 {margin-left: 10px;
   display: list-item;
   font-family: 'Poppins',serif;}
 
-form label.top, form div {display: block;
+.intro .title {font-size: 1.2rem;
+  margin-left: 0;}
+
+.intro {color: #1d3557;}
+
+form label.top, .form {display: block;
     padding-top: 1rem;
     font-size: .9rem;
     font-family: 'Poppins', serif;
@@ -400,7 +417,9 @@ form label.top input, form label.top textarea {display: block;
   min-height: 44px;
   min-width: 293px;}
 
-form {margin: 1rem;}
+form {margin: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 1rem;}
 
 .intro, .form {max-width: 800px;
   margin: 0 auto;}

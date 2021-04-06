@@ -110,5 +110,7 @@
     #mapcontact iframe {width: 100%;
         max-height: 300px;}
 
+    #board {padding: 2rem;}
+
 /*end media query*/
 }
