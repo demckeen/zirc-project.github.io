@@ -20,6 +20,8 @@
 		display: none;
 	}
 
+    .navigation ul {padding-inline-start: 30px;}
+
     footer {position:relative;
         display: grid;
         grid-template-columns: 1fr;
@@ -83,8 +85,7 @@
         gap: 1rem;
         margin-right: 1rem;}
     
-    .whyimg {width: 100%;
-        align-self: center;}
+    .whyimg {align-self: center;}
 
     .eventcards {grid-template-columns: 1fr 1fr;}
 
@@ -117,6 +118,8 @@
         margin-right: 3rem;}
 
     .intro p {max-width: 600px;}
+
+    form label.top input, form label.top textarea {min-width: 300px;}
 
 /*end media query*/
 }

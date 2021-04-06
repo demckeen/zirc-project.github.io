@@ -10,5 +10,7 @@
 
 .eventcards {grid-template-columns: repeat(4, 1fr);}
 
+form label.top input, form label.top textarea {min-width: 400px;}
+
 /*end media query*/
 }

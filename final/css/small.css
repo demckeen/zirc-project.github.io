@@ -127,6 +127,8 @@ header, footer {background-color: #1d3557;
 
 .navigation li:hover {background-color: #f1faee;}
 
+.navigation ul {padding-left: 0;}
+
 ul {list-style: none;}
 ul li {display:inline;}
 
@@ -332,9 +334,10 @@ footer a {color: white;}
 #whytxt {margin: 1rem;}
 
 .whyimg {display: block;
-  margin: 0 auto;}
+  margin: 0 auto;
+  width: 100%;}
 
-#directory {max-width: 100%;}
+.fullscreen {max-width: 100%;}
 
 .cards {display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -419,9 +422,11 @@ form label.top, .form {display: block;
 form label.top input, form label.top textarea {display: block;
   margin-top: 5px;
   border-radius: 4px;
-  border: 1px solid gray;
+  border: 1px solid #1d3557;
   min-height: 44px;
-  min-width: 293px;}
+  max-width: 100%}
+
+form label.top textarea {max-width: 95%;}
 
 form {margin: 1rem;
   margin-bottom: 0;
@@ -436,8 +441,6 @@ form {margin: 1rem;
 main {min-height: 60vh;}
 
 .contact .logo {margin-bottom: 0;}
-
-#appthanks {margin-left: 1rem;}
 
 #mapcontact {display: grid;
   grid-template-columns: 1fr;
@@ -468,3 +471,10 @@ main {min-height: 60vh;}
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-right: 10px;
   column-gap: 10px;}
+
+.thanks {margin-top: 0;
+  padding-top: 1rem;
+  margin-left: 1rem;}
+
+.thanks p, .thanks h2 {max-width: 600px;
+  margin: 1rem auto;}
