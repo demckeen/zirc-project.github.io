@@ -2,14 +2,17 @@
 
     #members {
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         grid-template-rows: 1fr;
         justify-items: center;
         gap: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;}
     
-    #members img {width:100%;}
+    #members img {width: 95%;
+        margin-left: 10px;}
+
+    #members p {margin-left: 10px;}
 
     #members a {color: white;}
 
@@ -39,10 +42,12 @@
         margin-left: 0;
         gap: 10px;
         padding-bottom: 0;
+        padding-top: 0;
         }
 
     #dots {display: block;
-        padding-bottom: 15px;}
+        padding-bottom: 15px;
+        max-height: 22px;}
 
     #weather {display: grid;
         grid-template-columns: 1fr 3fr;
@@ -62,8 +67,12 @@
 
     #identity {padding-left: 1.2rem;
         padding-right: 1.2rem;
-        padding-bottom: 1.2rem;}
+        padding-bottom: 1.2rem;
+        padding-top: 0;}
     #join {padding-right: 1.2rem;}
+
+    .eventcards {margin-bottom: 0;
+        padding-bottom: 10px;}
 
     #data {
         grid-template-columns: 1fr 1fr;
