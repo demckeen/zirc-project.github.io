@@ -66,6 +66,12 @@
         margin-left: 1rem;
         margin-right: 1rem;}
 
+    .currweather p {margin-bottom: 1em;}
+
+    #currwdiv .title {margin-top: 1em;}
+
+    #currwdiv {padding: 0;}
+
     #weather .title {font-size: calc(8px + 1vw);}
 
     #identity {padding-left: 1.2rem;
