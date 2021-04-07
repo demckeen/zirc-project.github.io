@@ -139,8 +139,6 @@ footer span {margin-left: 10px;}
 
 .social {text-align: center;}
 
-#contactsocial {margin-left: 100px;}
-
 .bottombar {text-align: center;
     padding-bottom: 10px;}
 
@@ -274,9 +272,6 @@ div.bottombar {justify-self: center;
 .button:hover, .listify:hover, .gridify:hover {color: white;
   background-color: #1d3557;
   cursor: pointer;} 
-
-.medium p {font-size: 1.2rem;
-  margin-top: 0;}
 
 #weather {display: block;}
 
