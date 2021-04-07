@@ -146,9 +146,9 @@ footer span {margin-left: 10px;}
 .bottombar {text-align: center;
     padding-bottom: 10px;}
 
-.social img, #contactsocial img { max-width: 20px;
+.social i, #contactsocial i {
     margin: auto 10px;
-    padding-top: 10px;}
+    padding-top: 5px;}
 
 .logo {max-width: 90px;
   margin:10px;}

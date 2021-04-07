@@ -33,6 +33,7 @@
         grid-template-rows: 1fr;}
     
     .social {justify-self: right;
+        align-self: center;
         margin-right: 3vw;}
     
     .social img {padding-top: 45px;}
