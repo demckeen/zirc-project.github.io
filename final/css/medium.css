@@ -36,7 +36,7 @@
         align-self: center;
         margin-right: 3vw;}
     
-    .social img {padding-top: 45px;}
+    .social i {color: white;}
 
     #about {display: grid;
         grid-template-columns: 1fr 1fr;
